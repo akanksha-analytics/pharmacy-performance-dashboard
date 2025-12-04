@@ -1,0 +1,501 @@
+RxID,Date,DrugName,DrugCategory,PharmacyName,PharmacyType,QuantityDispensed,UnitCost,UnitPrice,TotalRevenue,TotalCost,Profit,PatientAge,Gender,DoctorType,WaitingTimeMins,OrderProcessingTimeMins,InventoryStockBefore,InventoryStockAfter,RefillFlag,ModeOfOrder
+RX0001,2023-05-23,Losartan,Cardiac,Apollo Wellness,Retail,14,25.46,35.67,499.38,356.44,142.94,75,F,GP,6,10,76,62,No,Online
+RX0002,2023-09-07,Losartan,Cardiac,Apollo Wellness,Retail,8,19.38,25.31,202.48,155.04,47.44,47,F,GP,22,9,25,17,Yes,Online
+RX0003,2023-12-13,Losartan,Cardiac,Apollo Wellness,Retail,4,14.61,19.96,79.84,58.44,21.4,75,M,Telemedicine,26,14,46,42,Yes,WhatsApp
+RX0004,2023-01-04,Atorvastatin,Cardiac,LifeLine Medicals,Retail,15,26.68,37.55,563.25,400.2,163.05,46,M,GP,12,12,62,47,No,Phone
+RX0005,2023-03-27,Azithromycin,Antibiotic,LifeLine Medicals,Retail,4,14.23,20.57,82.28,56.92,25.36,42,F,GP,2,5,58,54,Yes,Phone
+RX0006,2023-01-11,Atorvastatin,Cardiac,WellCare Pharmacy,Digital,3,24.21,32.62,97.86,72.63,25.23,44,F,GP,5,14,57,54,No,WhatsApp
+RX0007,2023-10-26,Azithromycin,Antibiotic,Apollo Wellness,Retail,10,25.6,35.88,358.8,256.0,102.8,20,F,GP,15,4,30,20,No,WhatsApp
+RX0008,2023-07-07,Losartan,Cardiac,LifeLine Medicals,Retail,4,22.07,35.26,141.04,88.28,52.76,84,M,Telemedicine,32,4,89,85,Yes,Online
+RX0009,2023-03-03,Atorvastatin,Cardiac,LifeLine Medicals,Retail,8,28.56,50.82,406.56,228.48,178.08,19,M,Specialist,8,8,64,56,Yes,Walk-in
+RX0010,2023-12-06,Losartan,Cardiac,Apollo Wellness,Retail,8,12.2,15.83,126.64,97.6,29.04,74,M,GP,34,7,42,34,Yes,Phone
+RX0011,2023-03-10,Metformin,Anti-Diabetic,Sharma Medical Store,Digital,13,18.5,26.14,339.82,240.5,99.32,22,F,Telemedicine,10,9,75,62,Yes,Phone
+RX0012,2023-04-27,Cetirizine,Allergy,Apollo Wellness,Digital,3,25.9,31.91,95.73,77.7,18.03,19,M,Telemedicine,13,3,72,69,No,WhatsApp
+RX0013,2023-04-21,Azithromycin,Antibiotic,WellCare Pharmacy,Retail,7,15.45,26.32,184.24,108.15,76.09,71,M,GP,17,8,41,34,No,Online
+RX0014,2023-01-05,Atorvastatin,Cardiac,Sharma Medical Store,Retail,11,28.95,40.71,447.81,318.45,129.36,75,F,Telemedicine,18,14,88,77,No,Phone
+RX0015,2023-07-29,Atorvastatin,Cardiac,LifeLine Medicals,Digital,14,21.25,35.68,499.52,297.5,202.02,41,F,Telemedicine,12,4,42,28,Yes,Walk-in
+RX0016,2023-05-12,Atorvastatin,Cardiac,Apollo Wellness,Digital,9,9.98,13.61,122.49,89.82,32.67,84,F,GP,30,11,69,60,Yes,Phone
+RX0017,2023-05-22,Amoxicillin,Antibiotic,LifeLine Medicals,Digital,2,29.8,38.95,77.9,59.6,18.3,59,M,Specialist,14,6,57,55,Yes,Online
+RX0018,2023-12-29,Metformin,Anti-Diabetic,LifeLine Medicals,Retail,6,10.37,17.96,107.76,62.22,45.54,59,F,GP,4,7,12,6,Yes,Phone
+RX0019,2023-10-18,Metformin,Anti-Diabetic,Sharma Medical Store,Retail,17,14.58,20.91,355.47,247.86,107.61,66,F,Telemedicine,32,13,31,14,No,Walk-in
+RX0020,2023-02-16,Omeprazole,Gastro,Sharma Medical Store,Retail,7,22.75,27.51,192.57,159.25,33.32,72,F,Telemedicine,13,14,30,23,Yes,Walk-in
+RX0021,2023-05-25,Omeprazole,Gastro,Apollo Wellness,Retail,1,10.02,16.45,16.45,10.02,6.43,73,F,Telemedicine,15,5,75,74,Yes,Online
+RX0022,2023-09-27,Cetirizine,Allergy,LifeLine Medicals,Retail,11,13.6,21.83,240.13,149.6,90.53,80,F,GP,5,3,60,49,No,Online
+RX0023,2023-10-14,Azithromycin,Antibiotic,Apollo Wellness,Retail,12,26.55,43.43,521.16,318.6,202.56,82,M,Specialist,31,14,108,96,Yes,WhatsApp
+RX0024,2023-01-24,Paracetamol,Pain Relief,WellCare Pharmacy,Digital,4,23.42,40.52,162.08,93.68,68.4,84,F,Telemedicine,22,14,54,50,Yes,Walk-in
+RX0025,2023-06-02,Metformin,Anti-Diabetic,Sharma Medical Store,Retail,10,29.06,39.68,396.8,290.6,106.2,37,M,Specialist,23,6,105,95,No,Phone
+RX0026,2023-02-24,Omeprazole,Gastro,Apollo Wellness,Digital,2,10.2,15.29,30.58,20.4,10.18,28,M,Telemedicine,29,5,89,87,Yes,Phone
+RX0027,2023-09-02,Cetirizine,Allergy,LifeLine Medicals,Retail,14,16.19,21.68,303.52,226.66,76.86,61,F,Telemedicine,26,8,87,73,No,Phone
+RX0028,2023-05-27,Azithromycin,Antibiotic,WellCare Pharmacy,Retail,13,18.49,24.58,319.54,240.37,79.17,83,M,Telemedicine,23,4,70,57,Yes,Walk-in
+RX0029,2023-02-26,Atorvastatin,Cardiac,Sharma Medical Store,Digital,4,21.7,26.08,104.32,86.8,17.52,76,F,GP,3,5,40,36,No,Phone
+RX0030,2023-05-27,Amoxicillin,Antibiotic,Sharma Medical Store,Retail,17,8.54,12.89,219.13,145.18,73.95,38,M,Telemedicine,28,6,95,78,Yes,WhatsApp
+RX0031,2023-05-28,Omeprazole,Gastro,Sharma Medical Store,Digital,10,23.45,42.02,420.2,234.5,185.7,79,M,Specialist,4,6,32,22,Yes,WhatsApp
+RX0032,2023-07-11,Omeprazole,Gastro,WellCare Pharmacy,Retail,3,23.15,35.09,105.27,69.45,35.82,80,F,Specialist,28,5,39,36,Yes,Phone
+RX0033,2023-01-27,Metformin,Anti-Diabetic,Sharma Medical Store,Digital,15,17.37,28.63,429.45,260.55,168.9,56,F,Specialist,11,6,92,77,Yes,Phone
+RX0034,2023-03-06,Paracetamol,Pain Relief,WellCare Pharmacy,Digital,16,27.7,41.01,656.16,443.2,212.96,31,F,GP,11,9,65,49,No,Phone
+RX0035,2023-03-12,Losartan,Cardiac,WellCare Pharmacy,Digital,10,26.74,38.08,380.8,267.4,113.4,60,M,Specialist,6,2,71,61,No,WhatsApp
+RX0036,2023-02-05,Paracetamol,Pain Relief,Apollo Wellness,Digital,19,3.73,4.65,88.35,70.87,17.48,66,M,Specialist,4,11,87,68,Yes,WhatsApp
+RX0037,2023-09-28,Omeprazole,Gastro,LifeLine Medicals,Digital,12,13.29,20.65,247.8,159.48,88.32,65,F,Specialist,27,7,73,61,No,Phone
+RX0038,2023-03-15,Paracetamol,Pain Relief,Apollo Wellness,Digital,8,16.75,21.43,171.44,134.0,37.44,72,F,Specialist,19,4,67,59,Yes,Online
+RX0039,2023-09-24,Losartan,Cardiac,LifeLine Medicals,Retail,18,18.13,29.69,534.42,326.34,208.08,66,F,GP,31,10,52,34,No,WhatsApp
+RX0040,2023-12-28,Azithromycin,Antibiotic,Sharma Medical Store,Digital,6,10.69,13.35,80.1,64.14,15.96,48,F,GP,4,4,98,92,Yes,Online
+RX0041,2023-03-18,Amoxicillin,Antibiotic,Sharma Medical Store,Digital,17,28.46,48.51,824.67,483.82,340.85,52,M,Telemedicine,17,6,105,88,Yes,WhatsApp
+RX0042,2023-08-26,Amoxicillin,Antibiotic,LifeLine Medicals,Retail,7,24.73,30.37,212.59,173.11,39.48,69,F,GP,26,4,84,77,Yes,Walk-in
+RX0043,2023-12-10,Losartan,Cardiac,WellCare Pharmacy,Retail,17,18.34,30.49,518.33,311.78,206.55,24,M,GP,34,4,38,21,Yes,WhatsApp
+RX0044,2023-09-11,Ibuprofen,Pain Relief,WellCare Pharmacy,Digital,18,29.1,35.7,642.6,523.8,118.8,53,M,Specialist,31,6,59,41,No,Phone
+RX0045,2023-12-14,Omeprazole,Gastro,LifeLine Medicals,Digital,19,18.62,25.03,475.57,353.78,121.79,75,M,Telemedicine,12,13,78,59,Yes,Phone
+RX0046,2023-08-07,Amoxicillin,Antibiotic,WellCare Pharmacy,Retail,19,21.61,33.25,631.75,410.59,221.16,27,F,Telemedicine,26,5,86,67,Yes,Online
+RX0047,2023-12-14,Cetirizine,Allergy,Apollo Wellness,Retail,1,17.68,29.79,29.79,17.68,12.11,38,M,GP,30,6,75,74,Yes,Online
+RX0048,2023-01-15,Ibuprofen,Pain Relief,LifeLine Medicals,Retail,2,7.31,11.95,23.9,14.62,9.28,27,F,Telemedicine,25,2,15,13,No,WhatsApp
+RX0049,2023-01-06,Paracetamol,Pain Relief,Apollo Wellness,Retail,19,18.62,22.36,424.84,353.78,71.06,26,F,Telemedicine,18,5,96,77,Yes,WhatsApp
+RX0050,2023-03-11,Metformin,Anti-Diabetic,Apollo Wellness,Digital,14,11.89,14.28,199.92,166.46,33.46,19,F,Telemedicine,25,3,99,85,No,WhatsApp
+RX0051,2023-12-11,Atorvastatin,Cardiac,Sharma Medical Store,Retail,11,28.88,42.33,465.63,317.68,147.95,78,M,Telemedicine,2,6,100,89,No,WhatsApp
+RX0052,2023-02-13,Atorvastatin,Cardiac,Apollo Wellness,Retail,19,4.18,6.74,128.06,79.42,48.64,46,M,GP,6,14,114,95,Yes,Online
+RX0053,2023-11-21,Cetirizine,Allergy,Apollo Wellness,Digital,9,7.8,11.6,104.4,70.2,34.2,34,F,Specialist,25,4,32,23,Yes,Walk-in
+RX0054,2023-01-30,Omeprazole,Gastro,Apollo Wellness,Digital,12,11.95,18.08,216.96,143.4,73.56,20,M,Telemedicine,14,10,22,10,Yes,Online
+RX0055,2023-02-10,Ibuprofen,Pain Relief,Apollo Wellness,Retail,13,23.05,34.13,443.69,299.65,144.04,41,M,Specialist,27,6,19,6,Yes,Phone
+RX0056,2023-04-13,Ibuprofen,Pain Relief,WellCare Pharmacy,Retail,9,22.34,32.08,288.72,201.06,87.66,82,M,GP,34,8,97,88,No,WhatsApp
+RX0057,2023-12-19,Omeprazole,Gastro,Apollo Wellness,Digital,10,14.79,21.59,215.9,147.9,68.0,58,M,Telemedicine,3,13,76,66,No,Online
+RX0058,2023-06-28,Cetirizine,Allergy,Sharma Medical Store,Retail,8,29.78,50.07,400.56,238.24,162.32,31,F,GP,7,8,84,76,No,Walk-in
+RX0059,2023-10-28,Azithromycin,Antibiotic,LifeLine Medicals,Digital,2,10.43,17.48,34.96,20.86,14.1,21,F,Specialist,19,4,42,40,No,WhatsApp
+RX0060,2023-09-02,Paracetamol,Pain Relief,Sharma Medical Store,Retail,9,12.59,16.09,144.81,113.31,31.5,23,M,GP,8,5,88,79,No,WhatsApp
+RX0061,2023-11-05,Cetirizine,Allergy,Sharma Medical Store,Retail,4,6.81,10.76,43.04,27.24,15.8,75,F,Telemedicine,23,10,71,67,No,Online
+RX0062,2023-01-12,Amoxicillin,Antibiotic,WellCare Pharmacy,Digital,3,21.18,29.08,87.24,63.54,23.7,53,F,Specialist,9,11,61,58,Yes,Online
+RX0063,2023-11-20,Metformin,Anti-Diabetic,Apollo Wellness,Digital,14,12.16,17.91,250.74,170.24,80.5,43,M,GP,8,12,58,44,No,WhatsApp
+RX0064,2023-06-25,Paracetamol,Pain Relief,LifeLine Medicals,Digital,15,16.72,27.08,406.2,250.8,155.4,36,F,Specialist,9,8,90,75,Yes,Walk-in
+RX0065,2023-01-11,Azithromycin,Antibiotic,Apollo Wellness,Retail,12,13.24,20.19,242.28,158.88,83.4,71,F,Telemedicine,28,4,33,21,Yes,WhatsApp
+RX0066,2023-02-15,Azithromycin,Antibiotic,Apollo Wellness,Digital,8,18.95,25.09,200.72,151.6,49.12,52,M,Specialist,26,8,79,71,Yes,WhatsApp
+RX0067,2023-08-03,Azithromycin,Antibiotic,WellCare Pharmacy,Retail,2,8.19,13.65,27.3,16.38,10.92,80,F,Specialist,5,11,26,24,Yes,Phone
+RX0068,2023-10-16,Amoxicillin,Antibiotic,Sharma Medical Store,Digital,1,19.94,28.25,28.25,19.94,8.31,35,F,Specialist,34,12,75,74,Yes,Phone
+RX0069,2023-09-17,Omeprazole,Gastro,Apollo Wellness,Retail,13,20.88,25.85,336.05,271.44,64.61,51,M,GP,22,12,64,51,Yes,Online
+RX0070,2023-07-21,Azithromycin,Antibiotic,Sharma Medical Store,Retail,8,19.7,33.67,269.36,157.6,111.76,80,M,GP,27,6,21,13,Yes,WhatsApp
+RX0071,2023-09-13,Amlodipine,Cardiac,LifeLine Medicals,Digital,7,16.77,21.23,148.61,117.39,31.22,40,F,Telemedicine,9,13,68,61,No,Phone
+RX0072,2023-07-01,Losartan,Cardiac,Sharma Medical Store,Retail,7,4.23,5.28,36.96,29.61,7.35,38,F,Telemedicine,7,13,106,99,Yes,Online
+RX0073,2023-04-30,Metformin,Anti-Diabetic,WellCare Pharmacy,Retail,7,7.57,9.68,67.76,52.99,14.77,74,M,GP,17,3,31,24,Yes,Walk-in
+RX0074,2023-09-05,Paracetamol,Pain Relief,Sharma Medical Store,Digital,16,23.93,30.03,480.48,382.88,97.6,42,M,Specialist,34,4,57,41,No,Walk-in
+RX0075,2023-01-09,Amlodipine,Cardiac,Apollo Wellness,Retail,1,12.78,15.62,15.62,12.78,2.84,72,M,GP,7,11,46,45,Yes,Online
+RX0076,2023-11-02,Metformin,Anti-Diabetic,LifeLine Medicals,Digital,9,6.65,9.71,87.39,59.85,27.54,63,F,Telemedicine,21,10,33,24,Yes,WhatsApp
+RX0077,2023-11-25,Cetirizine,Allergy,Apollo Wellness,Digital,5,12.99,20.39,101.95,64.95,37.0,82,M,GP,11,4,100,95,No,Walk-in
+RX0078,2023-09-05,Amlodipine,Cardiac,WellCare Pharmacy,Retail,6,19.06,25.18,151.08,114.36,36.72,25,F,GP,11,4,94,88,Yes,WhatsApp
+RX0079,2023-08-19,Azithromycin,Antibiotic,Apollo Wellness,Retail,6,22.26,38.72,232.32,133.56,98.76,53,M,GP,13,4,87,81,Yes,Phone
+RX0080,2023-11-24,Atorvastatin,Cardiac,WellCare Pharmacy,Retail,17,15.75,25.48,433.16,267.75,165.41,63,F,GP,21,12,79,62,No,Walk-in
+RX0081,2023-10-01,Losartan,Cardiac,Sharma Medical Store,Retail,14,13.81,18.81,263.34,193.34,70.0,72,F,GP,29,9,70,56,No,WhatsApp
+RX0082,2023-04-22,Paracetamol,Pain Relief,Apollo Wellness,Digital,14,28.46,43.62,610.68,398.44,212.24,26,M,Specialist,2,2,111,97,Yes,Online
+RX0083,2023-10-11,Amoxicillin,Antibiotic,WellCare Pharmacy,Retail,11,28.77,43.25,475.75,316.47,159.28,26,M,Specialist,17,2,83,72,No,Walk-in
+RX0084,2023-07-05,Ibuprofen,Pain Relief,LifeLine Medicals,Digital,4,23.42,29.45,117.8,93.68,24.12,49,M,GP,32,7,78,74,No,WhatsApp
+RX0085,2023-07-28,Azithromycin,Antibiotic,Sharma Medical Store,Digital,7,27.28,46.58,326.06,190.96,135.1,47,M,Telemedicine,14,4,20,13,Yes,Online
+RX0086,2023-05-09,Losartan,Cardiac,LifeLine Medicals,Retail,15,26.12,38.29,574.35,391.8,182.55,30,M,GP,24,11,113,98,Yes,Online
+RX0087,2023-04-30,Amlodipine,Cardiac,LifeLine Medicals,Digital,12,6.46,9.1,109.2,77.52,31.68,84,F,Specialist,30,10,83,71,No,Walk-in
+RX0088,2023-06-30,Paracetamol,Pain Relief,LifeLine Medicals,Retail,14,26.0,34.99,489.86,364.0,125.86,30,F,GP,34,3,107,93,No,Walk-in
+RX0089,2023-12-30,Ibuprofen,Pain Relief,WellCare Pharmacy,Digital,7,17.26,24.51,171.57,120.82,50.75,66,M,Specialist,18,10,69,62,Yes,Phone
+RX0090,2023-07-19,Azithromycin,Antibiotic,Sharma Medical Store,Retail,8,21.26,37.98,303.84,170.08,133.76,76,F,GP,19,4,64,56,Yes,Walk-in
+RX0091,2023-05-27,Atorvastatin,Cardiac,Sharma Medical Store,Digital,11,4.36,6.74,74.14,47.96,26.18,44,M,Telemedicine,21,11,50,39,Yes,Walk-in
+RX0092,2023-09-20,Omeprazole,Gastro,Sharma Medical Store,Retail,10,11.89,19.17,191.7,118.9,72.8,33,M,GP,16,14,61,51,Yes,Online
+RX0093,2023-08-19,Paracetamol,Pain Relief,LifeLine Medicals,Retail,12,18.07,31.5,378.0,216.84,161.16,48,F,Telemedicine,23,5,81,69,No,Phone
+RX0094,2023-09-16,Metformin,Anti-Diabetic,Sharma Medical Store,Digital,6,16.36,25.31,151.86,98.16,53.7,54,F,Specialist,9,12,65,59,Yes,WhatsApp
+RX0095,2023-08-03,Ibuprofen,Pain Relief,Apollo Wellness,Retail,14,26.23,33.23,465.22,367.22,98.0,69,M,GP,23,13,113,99,Yes,Phone
+RX0096,2023-02-26,Ibuprofen,Pain Relief,WellCare Pharmacy,Retail,4,19.37,25.18,100.72,77.48,23.24,35,F,GP,6,10,10,6,Yes,Phone
+RX0097,2023-10-13,Paracetamol,Pain Relief,Sharma Medical Store,Digital,16,7.0,12.19,195.04,112.0,83.04,23,M,GP,12,10,106,90,Yes,Phone
+RX0098,2023-09-25,Metformin,Anti-Diabetic,Apollo Wellness,Retail,1,29.14,51.25,51.25,29.14,22.11,74,F,Telemedicine,8,6,84,83,No,WhatsApp
+RX0099,2023-06-18,Losartan,Cardiac,WellCare Pharmacy,Retail,15,6.53,11.75,176.25,97.95,78.3,41,M,GP,17,7,102,87,No,WhatsApp
+RX0100,2023-07-09,Atorvastatin,Cardiac,Apollo Wellness,Digital,13,19.63,25.0,325.0,255.19,69.81,55,M,GP,12,4,65,52,No,Phone
+RX0101,2023-04-19,Losartan,Cardiac,Sharma Medical Store,Retail,14,29.16,36.76,514.64,408.24,106.4,83,F,Specialist,19,4,68,54,Yes,Walk-in
+RX0102,2023-05-08,Cetirizine,Allergy,LifeLine Medicals,Digital,7,26.8,34.39,240.73,187.6,53.13,31,F,Telemedicine,22,5,53,46,No,Online
+RX0103,2023-08-24,Paracetamol,Pain Relief,WellCare Pharmacy,Retail,1,4.33,5.3,5.3,4.33,0.97,72,M,GP,33,8,48,47,No,Phone
+RX0104,2023-09-13,Ibuprofen,Pain Relief,WellCare Pharmacy,Digital,17,3.81,6.18,105.06,64.77,40.29,59,M,Telemedicine,5,12,90,73,No,Walk-in
+RX0105,2023-05-04,Metformin,Anti-Diabetic,Sharma Medical Store,Retail,14,23.97,32.43,454.02,335.58,118.44,34,F,Specialist,21,6,105,91,Yes,Phone
+RX0106,2023-11-06,Atorvastatin,Cardiac,WellCare Pharmacy,Retail,12,29.54,43.86,526.32,354.48,171.84,21,M,Specialist,15,14,57,45,No,WhatsApp
+RX0107,2023-01-11,Amoxicillin,Antibiotic,LifeLine Medicals,Retail,19,9.67,14.3,271.7,183.73,87.97,59,F,Telemedicine,8,14,114,95,Yes,Phone
+RX0108,2023-09-18,Atorvastatin,Cardiac,LifeLine Medicals,Retail,6,15.33,26.26,157.56,91.98,65.58,38,M,Specialist,32,13,34,28,No,WhatsApp
+RX0109,2023-02-23,Amoxicillin,Antibiotic,LifeLine Medicals,Retail,11,28.71,39.27,431.97,315.81,116.16,76,M,Specialist,3,10,93,82,No,Phone
+RX0110,2023-09-14,Azithromycin,Antibiotic,WellCare Pharmacy,Retail,12,4.85,7.33,87.96,58.2,29.76,65,F,Telemedicine,26,5,76,64,Yes,Walk-in
+RX0111,2023-02-10,Amoxicillin,Antibiotic,LifeLine Medicals,Retail,6,18.87,30.05,180.3,113.22,67.08,51,M,Telemedicine,25,3,15,9,No,Online
+RX0112,2023-03-10,Ibuprofen,Pain Relief,WellCare Pharmacy,Retail,10,23.86,36.73,367.3,238.6,128.7,79,M,Specialist,21,12,104,94,No,Phone
+RX0113,2023-08-25,Amoxicillin,Antibiotic,LifeLine Medicals,Retail,4,24.53,40.17,160.68,98.12,62.56,26,M,Telemedicine,29,2,51,47,No,WhatsApp
+RX0114,2023-10-07,Atorvastatin,Cardiac,Apollo Wellness,Digital,11,9.09,15.46,170.06,99.99,70.07,32,M,Telemedicine,30,4,72,61,No,Phone
+RX0115,2023-10-13,Metformin,Anti-Diabetic,LifeLine Medicals,Digital,19,8.17,10.17,193.23,155.23,38.0,67,F,Telemedicine,13,9,69,50,Yes,Walk-in
+RX0116,2023-03-24,Amoxicillin,Antibiotic,LifeLine Medicals,Retail,5,8.6,10.46,52.3,43.0,9.3,20,M,GP,1,7,91,86,Yes,Online
+RX0117,2023-11-29,Atorvastatin,Cardiac,Apollo Wellness,Digital,7,19.51,25.45,178.15,136.57,41.58,62,F,GP,14,8,103,96,Yes,Online
+RX0118,2023-04-19,Losartan,Cardiac,WellCare Pharmacy,Digital,19,5.83,7.98,151.62,110.77,40.85,71,M,GP,31,13,111,92,No,Walk-in
+RX0119,2023-10-11,Omeprazole,Gastro,Apollo Wellness,Digital,7,28.68,45.62,319.34,200.76,118.58,39,M,GP,30,9,74,67,No,WhatsApp
+RX0120,2023-04-18,Atorvastatin,Cardiac,Apollo Wellness,Retail,4,28.14,46.47,185.88,112.56,73.32,73,M,Telemedicine,9,5,35,31,Yes,Online
+RX0121,2023-08-19,Amlodipine,Cardiac,WellCare Pharmacy,Retail,4,27.99,46.39,185.56,111.96,73.6,75,F,Telemedicine,13,8,96,92,Yes,Online
+RX0122,2023-03-21,Ibuprofen,Pain Relief,Apollo Wellness,Retail,9,25.79,39.29,353.61,232.11,121.5,78,M,GP,2,2,38,29,No,Phone
+RX0123,2023-01-03,Metformin,Anti-Diabetic,Apollo Wellness,Digital,19,18.39,30.25,574.75,349.41,225.34,81,F,GP,11,3,77,58,Yes,Online
+RX0124,2023-11-17,Omeprazole,Gastro,Apollo Wellness,Digital,18,28.12,40.2,723.6,506.16,217.44,38,M,Telemedicine,22,4,110,92,No,Online
+RX0125,2023-03-17,Azithromycin,Antibiotic,Apollo Wellness,Retail,18,13.48,18.05,324.9,242.64,82.26,78,M,GP,32,13,55,37,Yes,Phone
+RX0126,2023-09-25,Azithromycin,Antibiotic,WellCare Pharmacy,Retail,8,23.34,34.74,277.92,186.72,91.2,30,F,GP,33,5,100,92,No,Phone
+RX0127,2023-01-12,Atorvastatin,Cardiac,Sharma Medical Store,Digital,9,11.06,18.94,170.46,99.54,70.92,47,M,GP,11,7,60,51,No,Online
+RX0128,2023-02-02,Metformin,Anti-Diabetic,Sharma Medical Store,Digital,15,21.28,28.72,430.8,319.2,111.6,29,M,Telemedicine,16,14,109,94,Yes,Phone
+RX0129,2023-01-12,Amlodipine,Cardiac,Sharma Medical Store,Digital,9,4.2,6.9,62.1,37.8,24.3,59,M,Telemedicine,7,10,79,70,No,Online
+RX0130,2023-11-29,Amoxicillin,Antibiotic,LifeLine Medicals,Digital,17,17.92,31.77,540.09,304.64,235.45,50,F,GP,21,3,38,21,Yes,Walk-in
+RX0131,2023-06-16,Amlodipine,Cardiac,Sharma Medical Store,Digital,5,25.73,36.0,180.0,128.65,51.35,28,F,GP,34,11,21,16,Yes,WhatsApp
+RX0132,2023-06-10,Ibuprofen,Pain Relief,LifeLine Medicals,Retail,14,24.79,41.38,579.32,347.06,232.26,35,F,Telemedicine,18,9,84,70,Yes,Online
+RX0133,2023-03-12,Losartan,Cardiac,Apollo Wellness,Retail,1,28.64,40.21,40.21,28.64,11.57,74,F,Telemedicine,34,7,37,36,No,Phone
+RX0134,2023-12-01,Losartan,Cardiac,WellCare Pharmacy,Retail,2,26.66,46.89,93.78,53.32,40.46,65,M,GP,30,9,75,73,Yes,Walk-in
+RX0135,2023-05-25,Cetirizine,Allergy,LifeLine Medicals,Retail,4,23.1,32.96,131.84,92.4,39.44,45,M,Specialist,18,12,43,39,No,Phone
+RX0136,2023-12-23,Omeprazole,Gastro,Apollo Wellness,Retail,5,27.09,46.43,232.15,135.45,96.7,84,F,Telemedicine,10,5,31,26,Yes,Online
+RX0137,2023-05-16,Amlodipine,Cardiac,LifeLine Medicals,Digital,15,13.23,20.41,306.15,198.45,107.7,52,F,Telemedicine,9,4,97,82,Yes,WhatsApp
+RX0138,2023-10-10,Metformin,Anti-Diabetic,LifeLine Medicals,Retail,4,12.43,16.78,67.12,49.72,17.4,37,F,Specialist,5,11,100,96,Yes,WhatsApp
+RX0139,2023-01-14,Omeprazole,Gastro,WellCare Pharmacy,Digital,18,2.49,3.12,56.16,44.82,11.34,59,M,Specialist,18,5,64,46,No,Online
+RX0140,2023-10-31,Ibuprofen,Pain Relief,WellCare Pharmacy,Retail,8,16.23,22.58,180.64,129.84,50.8,49,F,GP,13,12,93,85,Yes,WhatsApp
+RX0141,2023-04-26,Ibuprofen,Pain Relief,WellCare Pharmacy,Retail,14,23.24,31.59,442.26,325.36,116.9,53,F,Specialist,10,9,59,45,Yes,Online
+RX0142,2023-06-01,Paracetamol,Pain Relief,WellCare Pharmacy,Digital,7,19.92,26.27,183.89,139.44,44.45,37,M,Telemedicine,7,8,93,86,No,Online
+RX0143,2023-04-04,Atorvastatin,Cardiac,Apollo Wellness,Retail,7,6.01,7.59,53.13,42.07,11.06,65,F,Specialist,19,12,50,43,No,Online
+RX0144,2023-02-11,Azithromycin,Antibiotic,LifeLine Medicals,Digital,12,21.91,38.23,458.76,262.92,195.84,38,M,Telemedicine,32,12,104,92,Yes,Walk-in
+RX0145,2023-02-26,Amlodipine,Cardiac,Sharma Medical Store,Digital,14,29.94,51.05,714.7,419.16,295.54,19,F,Telemedicine,3,8,42,28,Yes,Phone
+RX0146,2023-05-23,Amoxicillin,Antibiotic,WellCare Pharmacy,Digital,14,15.07,25.77,360.78,210.98,149.8,45,F,Specialist,18,11,79,65,Yes,Phone
+RX0147,2023-06-30,Paracetamol,Pain Relief,Sharma Medical Store,Retail,8,11.06,16.92,135.36,88.48,46.88,22,F,Telemedicine,14,8,24,16,No,Online
+RX0148,2023-12-15,Metformin,Anti-Diabetic,Sharma Medical Store,Retail,17,26.32,34.29,582.93,447.44,135.49,68,F,GP,5,3,55,38,No,Phone
+RX0149,2023-05-23,Amlodipine,Cardiac,LifeLine Medicals,Digital,7,6.82,11.54,80.78,47.74,33.04,54,F,GP,1,12,102,95,No,Phone
+RX0150,2023-05-12,Omeprazole,Gastro,LifeLine Medicals,Digital,1,13.73,20.37,20.37,13.73,6.64,76,F,Telemedicine,6,7,45,44,Yes,Walk-in
+RX0151,2023-08-15,Ibuprofen,Pain Relief,Apollo Wellness,Digital,1,18.85,33.09,33.09,18.85,14.24,55,F,Telemedicine,28,3,95,94,No,Walk-in
+RX0152,2023-09-23,Metformin,Anti-Diabetic,LifeLine Medicals,Retail,13,6.56,7.88,102.44,85.28,17.16,53,F,Specialist,31,4,42,29,Yes,Online
+RX0153,2023-04-08,Amlodipine,Cardiac,Apollo Wellness,Retail,6,18.76,23.58,141.48,112.56,28.92,65,M,Specialist,22,9,38,32,No,Phone
+RX0154,2023-11-21,Paracetamol,Pain Relief,LifeLine Medicals,Digital,16,18.62,32.38,518.08,297.92,220.16,49,M,Telemedicine,33,11,56,40,No,WhatsApp
+RX0155,2023-06-10,Ibuprofen,Pain Relief,LifeLine Medicals,Retail,16,28.66,42.75,684.0,458.56,225.44,53,F,Specialist,34,8,34,18,Yes,WhatsApp
+RX0156,2023-04-24,Ibuprofen,Pain Relief,Sharma Medical Store,Retail,14,2.22,2.7,37.8,31.08,6.72,47,M,Telemedicine,15,7,80,66,No,Walk-in
+RX0157,2023-08-24,Atorvastatin,Cardiac,LifeLine Medicals,Retail,6,17.52,24.77,148.62,105.12,43.5,33,M,Telemedicine,16,9,25,19,No,WhatsApp
+RX0158,2023-11-19,Omeprazole,Gastro,Sharma Medical Store,Retail,14,14.03,19.03,266.42,196.42,70.0,38,F,Telemedicine,8,2,60,46,No,WhatsApp
+RX0159,2023-12-17,Amoxicillin,Antibiotic,WellCare Pharmacy,Digital,13,17.24,27.46,356.98,224.12,132.86,72,M,GP,21,3,79,66,Yes,WhatsApp
+RX0160,2023-08-30,Azithromycin,Antibiotic,LifeLine Medicals,Digital,11,18.87,27.75,305.25,207.57,97.68,52,M,GP,4,5,53,42,No,Phone
+RX0161,2023-04-30,Losartan,Cardiac,LifeLine Medicals,Retail,1,2.82,4.3,4.3,2.82,1.48,44,F,Telemedicine,9,5,13,12,No,WhatsApp
+RX0162,2023-02-24,Amlodipine,Cardiac,WellCare Pharmacy,Digital,1,18.05,24.5,24.5,18.05,6.45,71,M,GP,17,9,48,47,No,Online
+RX0163,2023-10-19,Amoxicillin,Antibiotic,LifeLine Medicals,Digital,19,2.78,3.65,69.35,52.82,16.53,83,M,GP,30,11,96,77,No,WhatsApp
+RX0164,2023-06-19,Amoxicillin,Antibiotic,Apollo Wellness,Retail,3,28.48,49.06,147.18,85.44,61.74,35,F,GP,17,10,68,65,No,WhatsApp
+RX0165,2023-06-27,Azithromycin,Antibiotic,Apollo Wellness,Retail,3,12.93,21.09,63.27,38.79,24.48,58,M,Specialist,17,5,53,50,No,Phone
+RX0166,2023-04-18,Cetirizine,Allergy,LifeLine Medicals,Digital,5,20.94,36.17,180.85,104.7,76.15,71,M,GP,29,8,68,63,Yes,WhatsApp
+RX0167,2023-03-28,Paracetamol,Pain Relief,LifeLine Medicals,Retail,11,20.17,29.69,326.59,221.87,104.72,37,M,Telemedicine,26,5,94,83,No,Phone
+RX0168,2023-02-19,Amoxicillin,Antibiotic,Apollo Wellness,Digital,6,22.37,37.65,225.9,134.22,91.68,19,F,GP,14,11,75,69,No,WhatsApp
+RX0169,2023-03-27,Cetirizine,Allergy,LifeLine Medicals,Retail,14,27.31,46.42,649.88,382.34,267.54,59,M,Specialist,20,6,30,16,Yes,Online
+RX0170,2023-02-09,Atorvastatin,Cardiac,LifeLine Medicals,Digital,11,20.12,26.66,293.26,221.32,71.94,74,F,Specialist,15,11,92,81,No,Phone
+RX0171,2023-07-18,Omeprazole,Gastro,LifeLine Medicals,Retail,18,7.9,11.91,214.38,142.2,72.18,28,M,Specialist,31,2,72,54,Yes,Walk-in
+RX0172,2023-11-16,Paracetamol,Pain Relief,LifeLine Medicals,Digital,18,2.9,3.56,64.08,52.2,11.88,76,F,Telemedicine,11,14,93,75,No,Phone
+RX0173,2023-09-27,Amlodipine,Cardiac,WellCare Pharmacy,Retail,19,28.73,45.82,870.58,545.87,324.71,72,M,Telemedicine,24,14,62,43,Yes,Online
+RX0174,2023-06-10,Paracetamol,Pain Relief,LifeLine Medicals,Retail,15,24.38,35.42,531.3,365.7,165.6,35,M,Telemedicine,13,5,69,54,No,WhatsApp
+RX0175,2023-03-12,Losartan,Cardiac,WellCare Pharmacy,Retail,7,14.25,19.55,136.85,99.75,37.1,55,F,Telemedicine,19,4,14,7,No,Walk-in
+RX0176,2023-10-10,Amlodipine,Cardiac,Sharma Medical Store,Digital,9,11.07,19.22,172.98,99.63,73.35,48,M,Telemedicine,1,2,45,36,Yes,Walk-in
+RX0177,2023-01-23,Omeprazole,Gastro,Apollo Wellness,Retail,13,6.65,8.65,112.45,86.45,26.0,26,F,GP,32,8,109,96,No,Walk-in
+RX0178,2023-11-05,Ibuprofen,Pain Relief,LifeLine Medicals,Retail,18,27.85,35.45,638.1,501.3,136.8,33,M,Specialist,27,13,83,65,No,Phone
+RX0179,2023-04-17,Omeprazole,Gastro,Apollo Wellness,Retail,10,5.82,8.55,85.5,58.2,27.3,46,M,Specialist,25,3,60,50,Yes,WhatsApp
+RX0180,2023-06-29,Losartan,Cardiac,Sharma Medical Store,Retail,13,5.44,6.92,89.96,70.72,19.24,74,M,Telemedicine,20,2,60,47,No,Walk-in
+RX0181,2023-12-10,Losartan,Cardiac,Apollo Wellness,Retail,8,17.52,22.17,177.36,140.16,37.2,74,M,Specialist,1,3,73,65,No,WhatsApp
+RX0182,2023-03-22,Metformin,Anti-Diabetic,Apollo Wellness,Digital,9,29.3,51.8,466.2,263.7,202.5,72,F,Specialist,17,2,83,74,No,Phone
+RX0183,2023-11-02,Losartan,Cardiac,LifeLine Medicals,Digital,3,2.5,4.1,12.3,7.5,4.8,20,F,Telemedicine,12,11,50,47,Yes,Phone
+RX0184,2023-01-22,Cetirizine,Allergy,Apollo Wellness,Digital,17,26.87,39.31,668.27,456.79,211.48,70,F,GP,9,2,44,27,Yes,Phone
+RX0185,2023-06-22,Amlodipine,Cardiac,Sharma Medical Store,Retail,16,25.06,36.61,585.76,400.96,184.8,71,M,GP,21,7,78,62,Yes,Online
+RX0186,2023-11-21,Metformin,Anti-Diabetic,LifeLine Medicals,Retail,19,24.49,42.02,798.38,465.31,333.07,64,F,GP,12,5,110,91,No,Walk-in
+RX0187,2023-01-24,Omeprazole,Gastro,LifeLine Medicals,Retail,15,26.76,40.83,612.45,401.4,211.05,24,F,GP,24,5,84,69,No,WhatsApp
+RX0188,2023-12-21,Cetirizine,Allergy,WellCare Pharmacy,Digital,12,19.85,26.98,323.76,238.2,85.56,68,M,Specialist,25,12,28,16,No,Online
+RX0189,2024-01-01,Losartan,Cardiac,Apollo Wellness,Retail,7,10.05,13.83,96.81,70.35,26.46,26,F,Specialist,32,10,95,88,No,Walk-in
+RX0190,2023-05-17,Metformin,Anti-Diabetic,LifeLine Medicals,Retail,9,29.58,42.99,386.91,266.22,120.69,55,M,Telemedicine,33,3,74,65,Yes,Online
+RX0191,2023-07-06,Atorvastatin,Cardiac,Apollo Wellness,Retail,10,28.0,49.07,490.7,280.0,210.7,27,F,Specialist,25,2,96,86,Yes,Phone
+RX0192,2023-05-19,Ibuprofen,Pain Relief,WellCare Pharmacy,Digital,15,2.3,2.82,42.3,34.5,7.8,68,F,Specialist,29,13,58,43,No,Walk-in
+RX0193,2024-01-01,Metformin,Anti-Diabetic,WellCare Pharmacy,Retail,18,2.08,3.66,65.88,37.44,28.44,40,M,GP,4,8,37,19,No,Phone
+RX0194,2023-08-25,Paracetamol,Pain Relief,LifeLine Medicals,Retail,8,16.48,23.67,189.36,131.84,57.52,57,F,Specialist,19,11,24,16,No,Online
+RX0195,2023-07-28,Losartan,Cardiac,Sharma Medical Store,Digital,18,12.7,19.28,347.04,228.6,118.44,50,M,Telemedicine,13,3,108,90,Yes,WhatsApp
+RX0196,2023-11-16,Amlodipine,Cardiac,LifeLine Medicals,Digital,18,7.33,11.42,205.56,131.94,73.62,49,M,Telemedicine,26,7,33,15,Yes,Online
+RX0197,2023-01-12,Cetirizine,Allergy,LifeLine Medicals,Digital,4,12.01,14.77,59.08,48.04,11.04,38,F,GP,18,4,76,72,No,Phone
+RX0198,2023-09-23,Amoxicillin,Antibiotic,Sharma Medical Store,Retail,1,28.62,45.76,45.76,28.62,17.14,54,M,Telemedicine,21,11,19,18,No,Walk-in
+RX0199,2023-01-29,Metformin,Anti-Diabetic,Apollo Wellness,Retail,4,2.15,3.35,13.4,8.6,4.8,30,M,Specialist,11,11,54,50,No,WhatsApp
+RX0200,2023-01-08,Amlodipine,Cardiac,LifeLine Medicals,Digital,6,26.6,44.75,268.5,159.6,108.9,39,M,Specialist,6,6,59,53,Yes,Phone
+RX0201,2023-12-03,Omeprazole,Gastro,Sharma Medical Store,Retail,4,24.33,38.59,154.36,97.32,57.04,38,M,Specialist,16,12,92,88,Yes,WhatsApp
+RX0202,2023-10-20,Atorvastatin,Cardiac,WellCare Pharmacy,Digital,3,10.22,15.46,46.38,30.66,15.72,72,M,Specialist,16,12,14,11,Yes,Walk-in
+RX0203,2023-11-23,Azithromycin,Antibiotic,Sharma Medical Store,Digital,1,6.27,9.14,9.14,6.27,2.87,61,M,Specialist,2,3,60,59,No,Phone
+RX0204,2023-01-25,Cetirizine,Allergy,WellCare Pharmacy,Digital,1,27.32,43.25,43.25,27.32,15.93,36,F,Specialist,21,9,21,20,No,Walk-in
+RX0205,2023-04-17,Azithromycin,Antibiotic,WellCare Pharmacy,Retail,9,8.36,14.24,128.16,75.24,52.92,35,F,Telemedicine,32,12,40,31,Yes,WhatsApp
+RX0206,2023-01-03,Paracetamol,Pain Relief,Sharma Medical Store,Digital,10,10.3,13.46,134.6,103.0,31.6,42,F,GP,25,5,33,23,No,Online
+RX0207,2023-04-21,Azithromycin,Antibiotic,Apollo Wellness,Digital,6,22.38,38.82,232.92,134.28,98.64,65,M,GP,6,8,93,87,Yes,Walk-in
+RX0208,2023-04-20,Ibuprofen,Pain Relief,Sharma Medical Store,Retail,18,16.33,29.34,528.12,293.94,234.18,71,F,Telemedicine,34,3,52,34,No,WhatsApp
+RX0209,2023-09-16,Metformin,Anti-Diabetic,LifeLine Medicals,Digital,14,7.41,11.65,163.1,103.74,59.36,42,M,GP,15,13,44,30,No,Walk-in
+RX0210,2023-05-30,Losartan,Cardiac,LifeLine Medicals,Digital,10,14.7,21.22,212.2,147.0,65.2,23,M,Specialist,11,2,86,76,Yes,Phone
+RX0211,2023-11-05,Amoxicillin,Antibiotic,LifeLine Medicals,Digital,8,15.88,22.82,182.56,127.04,55.52,68,M,GP,10,10,53,45,Yes,Online
+RX0212,2023-11-28,Azithromycin,Antibiotic,WellCare Pharmacy,Digital,9,5.29,7.06,63.54,47.61,15.93,43,M,Telemedicine,5,4,35,26,Yes,Online
+RX0213,2023-12-17,Atorvastatin,Cardiac,Sharma Medical Store,Digital,4,8.93,16.07,64.28,35.72,28.56,21,M,Specialist,11,11,10,6,No,Phone
+RX0214,2023-12-05,Amoxicillin,Antibiotic,Apollo Wellness,Digital,8,27.57,44.53,356.24,220.56,135.68,43,F,GP,28,3,75,67,Yes,Online
+RX0215,2023-03-26,Amoxicillin,Antibiotic,LifeLine Medicals,Retail,3,24.04,33.08,99.24,72.12,27.12,26,F,GP,21,13,27,24,Yes,Walk-in
+RX0216,2023-07-26,Omeprazole,Gastro,LifeLine Medicals,Retail,17,27.07,42.8,727.6,460.19,267.41,83,M,GP,30,8,47,30,Yes,WhatsApp
+RX0217,2023-01-01,Losartan,Cardiac,Apollo Wellness,Retail,11,29.4,41.63,457.93,323.4,134.53,46,M,GP,33,14,108,97,No,Online
+RX0218,2023-02-28,Ibuprofen,Pain Relief,Apollo Wellness,Retail,15,20.26,30.92,463.8,303.9,159.9,68,F,Specialist,22,2,58,43,No,Phone
+RX0219,2023-05-03,Amlodipine,Cardiac,Sharma Medical Store,Retail,5,15.43,18.53,92.65,77.15,15.5,42,F,GP,29,5,86,81,No,Online
+RX0220,2023-07-18,Losartan,Cardiac,LifeLine Medicals,Retail,16,22.8,32.04,512.64,364.8,147.84,61,F,Specialist,13,9,42,26,No,Online
+RX0221,2023-09-08,Metformin,Anti-Diabetic,LifeLine Medicals,Retail,19,29.8,53.02,1007.38,566.2,441.18,49,M,Specialist,6,10,28,9,No,Online
+RX0222,2023-07-13,Paracetamol,Pain Relief,Apollo Wellness,Retail,11,5.23,6.28,69.08,57.53,11.55,69,F,GP,5,3,18,7,Yes,Online
+RX0223,2023-02-14,Losartan,Cardiac,WellCare Pharmacy,Digital,19,17.03,20.68,392.92,323.57,69.35,35,M,GP,7,3,89,70,No,Walk-in
+RX0224,2023-07-28,Metformin,Anti-Diabetic,WellCare Pharmacy,Digital,5,8.0,14.16,70.8,40.0,30.8,77,M,Telemedicine,17,4,42,37,Yes,Online
+RX0225,2023-10-24,Losartan,Cardiac,Apollo Wellness,Retail,2,22.05,27.25,54.5,44.1,10.4,69,F,Telemedicine,13,3,95,93,No,WhatsApp
+RX0226,2023-04-19,Losartan,Cardiac,LifeLine Medicals,Retail,4,28.45,42.07,168.28,113.8,54.48,74,F,GP,4,4,72,68,Yes,WhatsApp
+RX0227,2023-09-29,Paracetamol,Pain Relief,LifeLine Medicals,Digital,16,7.08,10.75,172.0,113.28,58.72,31,M,GP,33,3,43,27,Yes,WhatsApp
+RX0228,2023-02-07,Amlodipine,Cardiac,LifeLine Medicals,Digital,13,12.77,20.32,264.16,166.01,98.15,68,F,GP,21,12,85,72,No,WhatsApp
+RX0229,2023-03-04,Amoxicillin,Antibiotic,Sharma Medical Store,Digital,9,18.97,31.22,280.98,170.73,110.25,71,F,Telemedicine,28,5,62,53,Yes,Phone
+RX0230,2023-05-24,Amlodipine,Cardiac,Apollo Wellness,Digital,15,24.59,35.74,536.1,368.85,167.25,74,M,Specialist,23,11,106,91,Yes,Online
+RX0231,2023-11-18,Atorvastatin,Cardiac,LifeLine Medicals,Retail,12,28.15,37.04,444.48,337.8,106.68,65,F,Specialist,11,11,19,7,Yes,Walk-in
+RX0232,2023-08-14,Ibuprofen,Pain Relief,WellCare Pharmacy,Retail,4,6.94,9.79,39.16,27.76,11.4,19,M,Telemedicine,15,14,101,97,Yes,Online
+RX0233,2023-09-28,Losartan,Cardiac,LifeLine Medicals,Retail,4,29.17,38.74,154.96,116.68,38.28,79,M,GP,1,3,40,36,No,Online
+RX0234,2023-11-10,Azithromycin,Antibiotic,WellCare Pharmacy,Retail,15,23.9,39.3,589.5,358.5,231.0,72,F,Telemedicine,3,3,99,84,Yes,WhatsApp
+RX0235,2023-07-15,Amoxicillin,Antibiotic,Sharma Medical Store,Retail,1,28.99,51.91,51.91,28.99,22.92,59,M,Telemedicine,6,10,26,25,No,Online
+RX0236,2023-04-06,Azithromycin,Antibiotic,Sharma Medical Store,Digital,17,24.7,39.42,670.14,419.9,250.24,19,F,Specialist,20,13,106,89,No,Walk-in
+RX0237,2023-01-29,Omeprazole,Gastro,Apollo Wellness,Digital,18,27.71,35.65,641.7,498.78,142.92,68,F,GP,25,11,111,93,No,Walk-in
+RX0238,2023-11-27,Losartan,Cardiac,Apollo Wellness,Retail,7,11.64,18.17,127.19,81.48,45.71,47,M,GP,23,12,71,64,Yes,Walk-in
+RX0239,2023-02-27,Omeprazole,Gastro,WellCare Pharmacy,Digital,11,27.86,36.62,402.82,306.46,96.36,67,F,Telemedicine,2,8,44,33,Yes,Phone
+RX0240,2023-05-12,Amlodipine,Cardiac,Apollo Wellness,Retail,7,17.37,26.53,185.71,121.59,64.12,29,M,Telemedicine,10,2,96,89,Yes,WhatsApp
+RX0241,2023-05-17,Omeprazole,Gastro,Sharma Medical Store,Digital,3,15.03,22.94,68.82,45.09,23.73,68,F,Specialist,3,5,49,46,No,WhatsApp
+RX0242,2023-03-05,Atorvastatin,Cardiac,Sharma Medical Store,Digital,8,3.65,6.39,51.12,29.2,21.92,54,M,Specialist,4,12,54,46,No,WhatsApp
+RX0243,2023-07-28,Amoxicillin,Antibiotic,Sharma Medical Store,Retail,8,28.33,43.76,350.08,226.64,123.44,20,F,Specialist,28,10,66,58,No,WhatsApp
+RX0244,2023-02-11,Amlodipine,Cardiac,Sharma Medical Store,Digital,14,9.82,13.25,185.5,137.48,48.02,44,F,Telemedicine,30,10,81,67,No,Online
+RX0245,2023-12-20,Omeprazole,Gastro,Sharma Medical Store,Retail,15,6.57,11.38,170.7,98.55,72.15,64,M,Specialist,15,3,66,51,No,Online
+RX0246,2023-05-16,Cetirizine,Allergy,Sharma Medical Store,Digital,7,23.78,32.91,230.37,166.46,63.91,74,M,Telemedicine,17,13,67,60,Yes,WhatsApp
+RX0247,2023-02-23,Amoxicillin,Antibiotic,Apollo Wellness,Retail,3,23.33,38.2,114.6,69.99,44.61,49,M,GP,8,4,92,89,Yes,Phone
+RX0248,2023-01-11,Ibuprofen,Pain Relief,WellCare Pharmacy,Digital,8,23.51,33.22,265.76,188.08,77.68,43,M,Telemedicine,6,2,79,71,No,WhatsApp
+RX0249,2023-02-02,Omeprazole,Gastro,Apollo Wellness,Retail,11,9.21,15.4,169.4,101.31,68.09,36,M,Specialist,18,4,33,22,Yes,Walk-in
+RX0250,2023-01-25,Amoxicillin,Antibiotic,Sharma Medical Store,Digital,14,10.05,13.17,184.38,140.7,43.68,37,F,GP,10,2,73,59,Yes,Walk-in
+RX0251,2023-08-19,Ibuprofen,Pain Relief,Sharma Medical Store,Digital,9,8.86,14.87,133.83,79.74,54.09,81,F,GP,32,5,54,45,Yes,Online
+RX0252,2023-11-21,Cetirizine,Allergy,WellCare Pharmacy,Retail,18,11.23,18.64,335.52,202.14,133.38,36,F,Telemedicine,1,4,39,21,Yes,Online
+RX0253,2023-04-07,Atorvastatin,Cardiac,LifeLine Medicals,Retail,19,5.71,8.05,152.95,108.49,44.46,70,F,GP,14,11,105,86,Yes,WhatsApp
+RX0254,2023-05-31,Cetirizine,Allergy,WellCare Pharmacy,Retail,9,28.98,36.44,327.96,260.82,67.14,74,M,GP,33,3,39,30,No,WhatsApp
+RX0255,2023-04-16,Amoxicillin,Antibiotic,WellCare Pharmacy,Retail,15,2.68,4.26,63.9,40.2,23.7,77,F,GP,10,5,44,29,No,Online
+RX0256,2023-01-19,Atorvastatin,Cardiac,LifeLine Medicals,Retail,10,15.73,25.3,253.0,157.3,95.7,57,M,Specialist,14,5,70,60,No,Walk-in
+RX0257,2023-08-07,Omeprazole,Gastro,LifeLine Medicals,Retail,15,9.47,14.63,219.45,142.05,77.4,44,F,GP,17,13,61,46,Yes,Phone
+RX0258,2023-04-10,Amoxicillin,Antibiotic,WellCare Pharmacy,Retail,6,25.64,36.68,220.08,153.84,66.24,33,M,Specialist,28,6,88,82,No,Online
+RX0259,2023-06-17,Losartan,Cardiac,WellCare Pharmacy,Retail,15,10.45,18.68,280.2,156.75,123.45,26,M,GP,20,2,113,98,Yes,Phone
+RX0260,2023-10-16,Atorvastatin,Cardiac,Apollo Wellness,Digital,14,28.6,36.47,510.58,400.4,110.18,60,F,GP,34,13,36,22,No,Online
+RX0261,2023-08-23,Paracetamol,Pain Relief,Apollo Wellness,Retail,4,7.76,12.18,48.72,31.04,17.68,76,M,GP,33,3,30,26,No,Online
+RX0262,2023-09-12,Ibuprofen,Pain Relief,Apollo Wellness,Digital,8,5.7,9.52,76.16,45.6,30.56,35,M,Telemedicine,8,3,50,42,No,Phone
+RX0263,2023-06-07,Omeprazole,Gastro,WellCare Pharmacy,Retail,11,20.77,30.63,336.93,228.47,108.46,53,F,Telemedicine,22,9,44,33,No,Walk-in
+RX0264,2023-03-12,Amlodipine,Cardiac,WellCare Pharmacy,Retail,6,26.75,44.76,268.56,160.5,108.06,42,F,Specialist,4,6,87,81,Yes,Phone
+RX0265,2023-10-27,Azithromycin,Antibiotic,WellCare Pharmacy,Digital,4,21.01,35.79,143.16,84.04,59.12,50,M,Specialist,14,7,49,45,Yes,Walk-in
+RX0266,2023-10-11,Amlodipine,Cardiac,Apollo Wellness,Digital,1,12.89,17.96,17.96,12.89,5.07,58,F,Specialist,20,11,32,31,Yes,Phone
+RX0267,2023-05-28,Paracetamol,Pain Relief,WellCare Pharmacy,Digital,13,20.92,35.08,456.04,271.96,184.08,64,M,Telemedicine,11,12,33,20,Yes,Phone
+RX0268,2023-06-19,Atorvastatin,Cardiac,LifeLine Medicals,Digital,6,13.22,16.57,99.42,79.32,20.1,53,F,Telemedicine,6,3,70,64,No,Walk-in
+RX0269,2023-06-15,Losartan,Cardiac,Apollo Wellness,Digital,13,5.97,7.57,98.41,77.61,20.8,25,F,Specialist,32,3,27,14,No,WhatsApp
+RX0270,2023-10-09,Cetirizine,Allergy,Apollo Wellness,Retail,8,26.16,45.26,362.08,209.28,152.8,33,F,Specialist,12,7,67,59,No,WhatsApp
+RX0271,2023-08-17,Amlodipine,Cardiac,Apollo Wellness,Retail,11,20.15,36.01,396.11,221.65,174.46,47,F,Specialist,25,10,35,24,No,Phone
+RX0272,2023-10-07,Amoxicillin,Antibiotic,LifeLine Medicals,Retail,9,5.22,6.72,60.48,46.98,13.5,61,M,Telemedicine,25,14,90,81,No,Online
+RX0273,2023-05-12,Cetirizine,Allergy,WellCare Pharmacy,Retail,8,6.23,10.54,84.32,49.84,34.48,24,F,Specialist,9,9,61,53,Yes,Walk-in
+RX0274,2023-05-17,Azithromycin,Antibiotic,Apollo Wellness,Digital,6,4.38,6.87,41.22,26.28,14.94,58,F,GP,27,12,62,56,No,Phone
+RX0275,2023-09-28,Ibuprofen,Pain Relief,Sharma Medical Store,Digital,12,14.74,21.19,254.28,176.88,77.4,78,M,GP,25,11,86,74,Yes,WhatsApp
+RX0276,2023-08-20,Losartan,Cardiac,WellCare Pharmacy,Retail,10,23.14,34.21,342.1,231.4,110.7,38,F,GP,21,4,80,70,No,WhatsApp
+RX0277,2023-01-09,Azithromycin,Antibiotic,WellCare Pharmacy,Digital,17,6.56,10.49,178.33,111.52,66.81,71,M,Telemedicine,18,7,71,54,No,Phone
+RX0278,2023-07-02,Paracetamol,Pain Relief,Apollo Wellness,Retail,8,24.79,39.94,319.52,198.32,121.2,64,M,GP,12,3,57,49,No,Online
+RX0279,2023-01-30,Omeprazole,Gastro,Apollo Wellness,Digital,11,26.71,47.47,522.17,293.81,228.36,56,F,Specialist,15,10,50,39,No,Phone
+RX0280,2023-06-13,Cetirizine,Allergy,LifeLine Medicals,Retail,19,17.3,21.27,404.13,328.7,75.43,34,M,GP,33,6,84,65,Yes,Online
+RX0281,2023-01-07,Metformin,Anti-Diabetic,Sharma Medical Store,Retail,9,4.43,5.35,48.15,39.87,8.28,32,M,Specialist,11,13,59,50,No,Online
+RX0282,2023-12-12,Atorvastatin,Cardiac,WellCare Pharmacy,Digital,8,4.73,8.37,66.96,37.84,29.12,58,F,Telemedicine,5,2,92,84,Yes,Online
+RX0283,2023-11-25,Losartan,Cardiac,WellCare Pharmacy,Digital,3,11.4,16.68,50.04,34.2,15.84,22,F,Specialist,27,9,37,34,Yes,Phone
+RX0284,2023-06-06,Paracetamol,Pain Relief,Apollo Wellness,Retail,19,2.36,3.46,65.74,44.84,20.9,68,F,Telemedicine,4,6,72,53,Yes,WhatsApp
+RX0285,2023-04-30,Amoxicillin,Antibiotic,WellCare Pharmacy,Digital,12,19.67,25.27,303.24,236.04,67.2,39,M,GP,22,13,92,80,Yes,Walk-in
+RX0286,2023-11-03,Amoxicillin,Antibiotic,LifeLine Medicals,Retail,9,21.63,36.26,326.34,194.67,131.67,41,M,Telemedicine,31,8,82,73,Yes,WhatsApp
+RX0287,2023-09-07,Metformin,Anti-Diabetic,LifeLine Medicals,Retail,7,7.7,9.75,68.25,53.9,14.35,78,F,GP,22,8,63,56,No,WhatsApp
+RX0288,2023-08-21,Amlodipine,Cardiac,LifeLine Medicals,Digital,1,17.11,21.87,21.87,17.11,4.76,72,M,Specialist,7,13,10,9,Yes,Phone
+RX0289,2023-06-28,Losartan,Cardiac,Apollo Wellness,Digital,16,14.57,19.05,304.8,233.12,71.68,77,M,Telemedicine,25,2,81,65,Yes,Walk-in
+RX0290,2023-01-21,Ibuprofen,Pain Relief,LifeLine Medicals,Digital,19,11.51,14.29,271.51,218.69,52.82,47,M,GP,2,10,65,46,Yes,Phone
+RX0291,2023-11-05,Atorvastatin,Cardiac,LifeLine Medicals,Digital,17,4.16,6.91,117.47,70.72,46.75,19,F,Specialist,11,10,29,12,No,Walk-in
+RX0292,2023-06-04,Metformin,Anti-Diabetic,Sharma Medical Store,Digital,1,24.88,37.89,37.89,24.88,13.01,69,F,GP,29,4,96,95,Yes,Phone
+RX0293,2023-03-18,Azithromycin,Antibiotic,WellCare Pharmacy,Digital,6,17.02,29.63,177.78,102.12,75.66,29,M,Telemedicine,21,4,94,88,No,WhatsApp
+RX0294,2023-02-21,Paracetamol,Pain Relief,Apollo Wellness,Digital,11,13.66,18.16,199.76,150.26,49.5,43,M,Telemedicine,27,5,64,53,No,Walk-in
+RX0295,2023-02-12,Losartan,Cardiac,Apollo Wellness,Retail,2,18.01,23.75,47.5,36.02,11.48,27,M,Specialist,21,10,64,62,No,Online
+RX0296,2023-01-07,Amoxicillin,Antibiotic,Sharma Medical Store,Digital,4,17.15,29.03,116.12,68.6,47.52,75,F,Telemedicine,33,12,53,49,Yes,WhatsApp
+RX0297,2023-09-12,Losartan,Cardiac,Sharma Medical Store,Retail,17,20.69,25.92,440.64,351.73,88.91,31,F,GP,32,14,64,47,Yes,Online
+RX0298,2023-04-07,Azithromycin,Antibiotic,Apollo Wellness,Digital,10,6.06,8.38,83.8,60.6,23.2,70,M,Specialist,5,5,61,51,No,WhatsApp
+RX0299,2023-05-17,Paracetamol,Pain Relief,LifeLine Medicals,Digital,5,12.94,19.08,95.4,64.7,30.7,32,M,Telemedicine,20,4,81,76,No,Online
+RX0300,2023-12-23,Losartan,Cardiac,Sharma Medical Store,Digital,18,18.0,29.89,538.02,324.0,214.02,38,M,Specialist,17,4,82,64,Yes,WhatsApp
+RX0301,2023-10-20,Atorvastatin,Cardiac,Sharma Medical Store,Retail,19,19.74,29.86,567.34,375.06,192.28,33,F,GP,17,12,94,75,Yes,Phone
+RX0302,2023-12-10,Atorvastatin,Cardiac,LifeLine Medicals,Retail,12,23.9,37.64,451.68,286.8,164.88,81,M,Specialist,11,9,62,50,No,Walk-in
+RX0303,2023-12-14,Omeprazole,Gastro,WellCare Pharmacy,Digital,1,6.76,9.87,9.87,6.76,3.11,39,M,Telemedicine,25,8,44,43,No,Online
+RX0304,2023-10-07,Azithromycin,Antibiotic,WellCare Pharmacy,Retail,16,24.9,43.49,695.84,398.4,297.44,39,M,Telemedicine,30,2,115,99,No,Online
+RX0305,2023-12-31,Ibuprofen,Pain Relief,LifeLine Medicals,Retail,9,24.08,34.79,313.11,216.72,96.39,62,M,GP,11,4,58,49,Yes,Online
+RX0306,2023-01-13,Paracetamol,Pain Relief,Apollo Wellness,Retail,12,22.08,39.7,476.4,264.96,211.44,28,M,Specialist,26,6,21,9,Yes,Online
+RX0307,2023-02-01,Metformin,Anti-Diabetic,Apollo Wellness,Retail,6,21.09,37.49,224.94,126.54,98.4,56,F,GP,21,8,97,91,No,WhatsApp
+RX0308,2023-01-29,Metformin,Anti-Diabetic,WellCare Pharmacy,Digital,10,20.39,30.07,300.7,203.9,96.8,72,F,GP,30,2,107,97,No,Phone
+RX0309,2023-07-01,Amoxicillin,Antibiotic,Sharma Medical Store,Retail,10,17.48,21.51,215.1,174.8,40.3,82,M,GP,16,5,61,51,No,Walk-in
+RX0310,2023-07-06,Omeprazole,Gastro,Apollo Wellness,Retail,1,2.08,2.91,2.91,2.08,0.83,19,F,Telemedicine,7,6,64,63,No,Online
+RX0311,2023-04-23,Omeprazole,Gastro,Apollo Wellness,Retail,6,24.09,36.43,218.58,144.54,74.04,65,F,Specialist,9,11,11,5,No,Walk-in
+RX0312,2023-12-19,Cetirizine,Allergy,Apollo Wellness,Digital,17,2.17,2.67,45.39,36.89,8.5,59,F,Specialist,10,3,32,15,No,Phone
+RX0313,2023-06-23,Cetirizine,Allergy,WellCare Pharmacy,Digital,8,8.44,13.99,111.92,67.52,44.4,75,M,Specialist,32,10,66,58,No,Online
+RX0314,2023-03-01,Atorvastatin,Cardiac,Apollo Wellness,Retail,17,24.37,38.03,646.51,414.29,232.22,22,F,Specialist,5,11,113,96,Yes,Online
+RX0315,2023-05-14,Amlodipine,Cardiac,WellCare Pharmacy,Retail,18,2.35,2.93,52.74,42.3,10.44,29,F,Specialist,19,9,116,98,No,Walk-in
+RX0316,2023-09-06,Amlodipine,Cardiac,LifeLine Medicals,Retail,14,15.58,19.68,275.52,218.12,57.4,71,M,GP,5,6,108,94,No,Online
+RX0317,2023-06-01,Metformin,Anti-Diabetic,Apollo Wellness,Retail,5,3.65,5.1,25.5,18.25,7.25,73,F,Specialist,3,10,22,17,No,WhatsApp
+RX0318,2023-10-26,Cetirizine,Allergy,LifeLine Medicals,Retail,5,7.36,8.92,44.6,36.8,7.8,67,F,GP,11,2,28,23,No,Phone
+RX0319,2023-07-31,Losartan,Cardiac,WellCare Pharmacy,Digital,3,28.51,45.85,137.55,85.53,52.02,51,M,GP,20,7,92,89,Yes,Walk-in
+RX0320,2023-08-07,Amlodipine,Cardiac,WellCare Pharmacy,Retail,6,12.38,18.63,111.78,74.28,37.5,23,F,Telemedicine,10,12,93,87,No,Walk-in
+RX0321,2023-11-04,Atorvastatin,Cardiac,Sharma Medical Store,Retail,15,15.38,24.98,374.7,230.7,144.0,71,M,Specialist,32,4,100,85,No,Walk-in
+RX0322,2023-09-02,Omeprazole,Gastro,Apollo Wellness,Digital,7,11.85,14.46,101.22,82.95,18.27,57,F,Specialist,10,7,46,39,No,Walk-in
+RX0323,2023-04-28,Paracetamol,Pain Relief,WellCare Pharmacy,Digital,9,11.59,13.93,125.37,104.31,21.06,41,M,Specialist,6,3,36,27,Yes,Phone
+RX0324,2023-05-10,Atorvastatin,Cardiac,Apollo Wellness,Digital,7,9.63,13.4,93.8,67.41,26.39,73,M,Specialist,18,12,33,26,No,Phone
+RX0325,2023-04-06,Azithromycin,Antibiotic,Apollo Wellness,Digital,15,10.04,15.18,227.7,150.6,77.1,35,M,Specialist,2,12,88,73,Yes,Online
+RX0326,2023-03-28,Amlodipine,Cardiac,Apollo Wellness,Retail,9,22.31,34.7,312.3,200.79,111.51,50,F,GP,7,5,99,90,Yes,WhatsApp
+RX0327,2023-05-02,Amoxicillin,Antibiotic,Sharma Medical Store,Retail,15,24.94,40.02,600.3,374.1,226.2,77,F,Telemedicine,26,8,38,23,No,Online
+RX0328,2023-01-06,Omeprazole,Gastro,Sharma Medical Store,Retail,2,6.61,10.77,21.54,13.22,8.32,44,F,Specialist,34,13,92,90,Yes,Online
+RX0329,2023-05-24,Omeprazole,Gastro,WellCare Pharmacy,Digital,5,8.14,10.07,50.35,40.7,9.65,56,M,Specialist,7,4,23,18,Yes,Online
+RX0330,2023-01-27,Atorvastatin,Cardiac,LifeLine Medicals,Retail,8,25.54,42.86,342.88,204.32,138.56,56,F,GP,2,4,75,67,No,Walk-in
+RX0331,2023-09-02,Cetirizine,Allergy,LifeLine Medicals,Digital,19,16.42,24.0,456.0,311.98,144.02,52,F,GP,5,8,100,81,Yes,Phone
+RX0332,2023-10-04,Losartan,Cardiac,WellCare Pharmacy,Retail,19,7.15,10.2,193.8,135.85,57.95,21,F,GP,26,6,97,78,Yes,Walk-in
+RX0333,2023-02-08,Atorvastatin,Cardiac,Apollo Wellness,Digital,7,20.31,26.01,182.07,142.17,39.9,23,F,Specialist,5,7,105,98,No,Online
+RX0334,2023-07-10,Amlodipine,Cardiac,Apollo Wellness,Digital,2,3.32,5.72,11.44,6.64,4.8,52,F,GP,19,8,10,8,No,WhatsApp
+RX0335,2023-09-21,Ibuprofen,Pain Relief,Sharma Medical Store,Retail,13,20.59,32.5,422.5,267.67,154.83,75,M,Telemedicine,5,5,83,70,No,Phone
+RX0336,2023-04-07,Cetirizine,Allergy,Sharma Medical Store,Retail,10,7.82,9.78,97.8,78.2,19.6,25,F,Specialist,22,11,83,73,Yes,Online
+RX0337,2023-03-20,Paracetamol,Pain Relief,Sharma Medical Store,Digital,4,23.09,34.45,137.8,92.36,45.44,57,F,Specialist,20,12,20,16,No,WhatsApp
+RX0338,2023-07-20,Azithromycin,Antibiotic,Apollo Wellness,Retail,12,6.59,11.49,137.88,79.08,58.8,45,M,Telemedicine,31,13,111,99,No,Walk-in
+RX0339,2023-09-05,Cetirizine,Allergy,WellCare Pharmacy,Digital,9,19.35,25.77,231.93,174.15,57.78,29,M,Specialist,29,10,14,5,No,Online
+RX0340,2023-10-19,Paracetamol,Pain Relief,WellCare Pharmacy,Digital,15,3.54,4.62,69.3,53.1,16.2,37,M,GP,8,8,67,52,No,Walk-in
+RX0341,2023-12-11,Paracetamol,Pain Relief,Sharma Medical Store,Digital,17,22.6,34.92,593.64,384.2,209.44,73,M,Telemedicine,30,3,79,62,Yes,Phone
+RX0342,2023-05-02,Losartan,Cardiac,WellCare Pharmacy,Digital,3,26.81,32.87,98.61,80.43,18.18,31,M,Telemedicine,32,8,84,81,No,Online
+RX0343,2023-05-06,Losartan,Cardiac,LifeLine Medicals,Retail,14,15.33,24.0,336.0,214.62,121.38,47,M,Specialist,26,10,99,85,Yes,Walk-in
+RX0344,2023-10-06,Paracetamol,Pain Relief,Apollo Wellness,Retail,4,5.93,9.21,36.84,23.72,13.12,33,M,GP,19,11,38,34,Yes,Phone
+RX0345,2023-12-15,Omeprazole,Gastro,Sharma Medical Store,Digital,1,7.8,9.83,9.83,7.8,2.03,22,M,Telemedicine,10,14,72,71,No,Phone
+RX0346,2023-10-11,Omeprazole,Gastro,WellCare Pharmacy,Digital,6,8.64,15.4,92.4,51.84,40.56,48,M,Telemedicine,31,3,36,30,No,Phone
+RX0347,2023-07-22,Losartan,Cardiac,LifeLine Medicals,Digital,5,23.25,30.97,154.85,116.25,38.6,84,M,GP,27,8,39,34,No,Walk-in
+RX0348,2023-01-20,Atorvastatin,Cardiac,Apollo Wellness,Retail,14,11.73,14.98,209.72,164.22,45.5,64,F,GP,7,9,109,95,No,WhatsApp
+RX0349,2023-07-10,Azithromycin,Antibiotic,WellCare Pharmacy,Retail,1,5.14,7.48,7.48,5.14,2.34,23,M,GP,28,7,80,79,No,Walk-in
+RX0350,2023-08-27,Amoxicillin,Antibiotic,Sharma Medical Store,Retail,16,25.93,38.85,621.6,414.88,206.72,81,M,Telemedicine,12,3,51,35,Yes,Phone
+RX0351,2023-07-14,Amlodipine,Cardiac,WellCare Pharmacy,Retail,2,19.57,26.51,53.02,39.14,13.88,29,F,GP,28,11,52,50,Yes,Phone
+RX0352,2023-09-03,Losartan,Cardiac,Apollo Wellness,Retail,17,23.49,33.34,566.78,399.33,167.45,40,F,Specialist,14,2,114,97,Yes,Online
+RX0353,2023-05-16,Atorvastatin,Cardiac,WellCare Pharmacy,Retail,12,18.7,31.03,372.36,224.4,147.96,43,F,Specialist,20,5,38,26,Yes,Phone
+RX0354,2023-06-05,Ibuprofen,Pain Relief,Apollo Wellness,Retail,12,25.48,40.42,485.04,305.76,179.28,28,M,GP,9,13,57,45,Yes,WhatsApp
+RX0355,2023-11-27,Amlodipine,Cardiac,WellCare Pharmacy,Digital,14,26.79,38.67,541.38,375.06,166.32,66,M,Specialist,12,10,48,34,No,Phone
+RX0356,2023-05-27,Azithromycin,Antibiotic,LifeLine Medicals,Retail,5,23.57,40.86,204.3,117.85,86.45,41,F,Specialist,34,3,51,46,Yes,Phone
+RX0357,2023-10-11,Ibuprofen,Pain Relief,Sharma Medical Store,Retail,13,28.35,50.71,659.23,368.55,290.68,20,F,Telemedicine,6,4,33,20,Yes,WhatsApp
+RX0358,2023-12-01,Atorvastatin,Cardiac,WellCare Pharmacy,Digital,16,18.93,33.94,543.04,302.88,240.16,65,F,Telemedicine,16,4,99,83,No,Online
+RX0359,2023-03-18,Metformin,Anti-Diabetic,Apollo Wellness,Digital,19,21.03,26.05,494.95,399.57,95.38,35,M,Telemedicine,12,4,110,91,Yes,Online
+RX0360,2023-08-05,Cetirizine,Allergy,Sharma Medical Store,Retail,5,4.44,5.5,27.5,22.2,5.3,67,F,Telemedicine,18,9,46,41,No,WhatsApp
+RX0361,2023-05-03,Ibuprofen,Pain Relief,Apollo Wellness,Retail,17,6.63,8.44,143.48,112.71,30.77,46,F,Specialist,5,12,78,61,Yes,Online
+RX0362,2023-06-02,Losartan,Cardiac,LifeLine Medicals,Digital,6,5.24,6.54,39.24,31.44,7.8,25,M,Specialist,26,5,18,12,Yes,Phone
+RX0363,2023-05-01,Amlodipine,Cardiac,WellCare Pharmacy,Digital,16,2.85,4.06,64.96,45.6,19.36,55,F,Specialist,30,2,39,23,Yes,Phone
+RX0364,2023-05-28,Cetirizine,Allergy,Apollo Wellness,Retail,4,15.49,23.21,92.84,61.96,30.88,63,M,Specialist,13,3,99,95,Yes,WhatsApp
+RX0365,2023-03-28,Amoxicillin,Antibiotic,WellCare Pharmacy,Retail,7,26.62,42.96,300.72,186.34,114.38,71,M,Specialist,26,12,93,86,Yes,Walk-in
+RX0366,2023-01-13,Losartan,Cardiac,Apollo Wellness,Digital,8,4.54,6.01,48.08,36.32,11.76,48,F,Telemedicine,23,6,50,42,Yes,Walk-in
+RX0367,2023-07-23,Cetirizine,Allergy,WellCare Pharmacy,Retail,15,21.74,26.29,394.35,326.1,68.25,75,F,Telemedicine,25,3,85,70,No,Online
+RX0368,2023-08-10,Atorvastatin,Cardiac,Sharma Medical Store,Retail,3,9.3,16.13,48.39,27.9,20.49,58,M,Telemedicine,17,12,9,6,No,Walk-in
+RX0369,2023-12-29,Amlodipine,Cardiac,Apollo Wellness,Retail,3,7.6,10.19,30.57,22.8,7.77,21,F,Telemedicine,27,4,29,26,No,Walk-in
+RX0370,2023-07-14,Azithromycin,Antibiotic,Sharma Medical Store,Retail,9,8.48,10.92,98.28,76.32,21.96,64,F,Telemedicine,28,13,68,59,No,Walk-in
+RX0371,2023-12-07,Cetirizine,Allergy,LifeLine Medicals,Digital,17,11.93,14.94,253.98,202.81,51.17,43,F,GP,26,12,83,66,Yes,Phone
+RX0372,2023-06-12,Atorvastatin,Cardiac,WellCare Pharmacy,Retail,16,6.91,9.34,149.44,110.56,38.88,68,M,Telemedicine,8,5,52,36,No,Walk-in
+RX0373,2023-07-24,Azithromycin,Antibiotic,WellCare Pharmacy,Retail,9,5.17,8.93,80.37,46.53,33.84,48,F,Telemedicine,20,14,34,25,No,Phone
+RX0374,2023-07-11,Paracetamol,Pain Relief,WellCare Pharmacy,Retail,17,5.33,6.97,118.49,90.61,27.88,82,M,Telemedicine,29,4,65,48,Yes,Phone
+RX0375,2023-01-07,Losartan,Cardiac,LifeLine Medicals,Retail,3,18.23,27.96,83.88,54.69,29.19,47,F,Specialist,16,14,27,24,No,Online
+RX0376,2023-11-12,Amlodipine,Cardiac,Sharma Medical Store,Digital,9,3.18,4.21,37.89,28.62,9.27,62,F,Telemedicine,21,2,88,79,Yes,WhatsApp
+RX0377,2023-12-07,Omeprazole,Gastro,WellCare Pharmacy,Digital,19,21.11,27.84,528.96,401.09,127.87,53,F,Telemedicine,2,4,97,78,Yes,Phone
+RX0378,2023-06-13,Paracetamol,Pain Relief,Apollo Wellness,Digital,5,13.16,18.39,91.95,65.8,26.15,24,F,GP,10,8,90,85,Yes,WhatsApp
+RX0379,2023-12-08,Metformin,Anti-Diabetic,LifeLine Medicals,Retail,10,22.43,30.91,309.1,224.3,84.8,68,M,Telemedicine,24,12,53,43,No,Online
+RX0380,2023-01-08,Cetirizine,Allergy,Sharma Medical Store,Retail,10,28.04,47.43,474.3,280.4,193.9,43,F,GP,5,4,32,22,No,Walk-in
+RX0381,2023-05-18,Omeprazole,Gastro,LifeLine Medicals,Digital,12,22.73,35.21,422.52,272.76,149.76,27,F,Specialist,33,10,61,49,No,WhatsApp
+RX0382,2023-01-01,Cetirizine,Allergy,Sharma Medical Store,Digital,17,29.25,45.23,768.91,497.25,271.66,28,M,GP,8,10,87,70,No,WhatsApp
+RX0383,2023-05-14,Cetirizine,Allergy,LifeLine Medicals,Retail,12,10.53,13.98,167.76,126.36,41.4,18,F,Telemedicine,16,14,47,35,Yes,Walk-in
+RX0384,2023-06-05,Losartan,Cardiac,Sharma Medical Store,Retail,17,9.66,16.35,277.95,164.22,113.73,64,F,GP,20,13,75,58,Yes,Online
+RX0385,2023-05-05,Losartan,Cardiac,WellCare Pharmacy,Retail,18,19.35,25.52,459.36,348.3,111.06,25,M,GP,20,10,103,85,No,WhatsApp
+RX0386,2023-01-15,Cetirizine,Allergy,LifeLine Medicals,Retail,5,27.89,45.94,229.7,139.45,90.25,26,M,GP,13,4,20,15,No,Online
+RX0387,2023-11-13,Cetirizine,Allergy,WellCare Pharmacy,Retail,1,20.71,31.13,31.13,20.71,10.42,25,M,Specialist,1,5,56,55,No,Online
+RX0388,2023-04-22,Metformin,Anti-Diabetic,Apollo Wellness,Retail,11,12.1,15.56,171.16,133.1,38.06,43,F,Specialist,14,13,41,30,No,Online
+RX0389,2023-10-23,Metformin,Anti-Diabetic,LifeLine Medicals,Digital,6,5.28,7.29,43.74,31.68,12.06,44,M,Telemedicine,13,3,18,12,Yes,Phone
+RX0390,2023-01-30,Losartan,Cardiac,LifeLine Medicals,Digital,15,20.89,26.52,397.8,313.35,84.45,31,M,Telemedicine,10,10,79,64,No,Online
+RX0391,2023-07-20,Metformin,Anti-Diabetic,Apollo Wellness,Retail,6,6.52,10.54,63.24,39.12,24.12,56,F,GP,7,2,70,64,No,Online
+RX0392,2023-02-16,Amoxicillin,Antibiotic,WellCare Pharmacy,Digital,12,4.51,6.79,81.48,54.12,27.36,80,M,Telemedicine,9,8,19,7,Yes,Phone
+RX0393,2023-01-25,Paracetamol,Pain Relief,WellCare Pharmacy,Retail,1,3.2,4.04,4.04,3.2,0.84,81,M,Telemedicine,23,5,53,52,No,Walk-in
+RX0394,2023-01-05,Azithromycin,Antibiotic,WellCare Pharmacy,Retail,7,14.48,20.59,144.13,101.36,42.77,73,F,GP,1,5,104,97,No,Phone
+RX0395,2023-02-14,Cetirizine,Allergy,Sharma Medical Store,Digital,14,22.53,31.23,437.22,315.42,121.8,80,F,Telemedicine,19,8,72,58,Yes,Online
+RX0396,2023-09-23,Atorvastatin,Cardiac,Sharma Medical Store,Digital,4,10.68,15.89,63.56,42.72,20.84,18,F,GP,25,12,37,33,Yes,Walk-in
+RX0397,2023-07-15,Losartan,Cardiac,WellCare Pharmacy,Digital,11,2.49,4.48,49.28,27.39,21.89,63,F,GP,23,9,110,99,Yes,Online
+RX0398,2023-11-28,Azithromycin,Antibiotic,WellCare Pharmacy,Digital,5,14.05,23.66,118.3,70.25,48.05,80,F,GP,14,10,32,27,Yes,WhatsApp
+RX0399,2023-12-29,Cetirizine,Allergy,Sharma Medical Store,Retail,10,21.41,33.18,331.8,214.1,117.7,69,M,Telemedicine,15,4,18,8,No,WhatsApp
+RX0400,2023-05-24,Paracetamol,Pain Relief,Apollo Wellness,Digital,14,25.88,35.97,503.58,362.32,141.26,58,M,Telemedicine,30,3,60,46,Yes,Online
+RX0401,2023-04-16,Azithromycin,Antibiotic,Sharma Medical Store,Digital,5,4.26,7.32,36.6,21.3,15.3,62,F,GP,20,12,104,99,No,Phone
+RX0402,2023-08-15,Amoxicillin,Antibiotic,LifeLine Medicals,Digital,6,17.63,23.15,138.9,105.78,33.12,70,M,GP,24,14,94,88,No,Phone
+RX0403,2023-11-15,Atorvastatin,Cardiac,Sharma Medical Store,Digital,1,13.87,23.39,23.39,13.87,9.52,26,F,Telemedicine,10,5,29,28,Yes,Online
+RX0404,2023-04-16,Losartan,Cardiac,Apollo Wellness,Digital,17,27.92,46.83,796.11,474.64,321.47,63,M,Telemedicine,10,10,28,11,Yes,Online
+RX0405,2023-05-05,Cetirizine,Allergy,Sharma Medical Store,Retail,19,17.51,29.66,563.54,332.69,230.85,67,F,GP,19,5,85,66,No,WhatsApp
+RX0406,2023-06-08,Azithromycin,Antibiotic,WellCare Pharmacy,Digital,14,15.84,24.19,338.66,221.76,116.9,58,M,GP,30,9,88,74,Yes,Phone
+RX0407,2023-10-30,Paracetamol,Pain Relief,Apollo Wellness,Digital,7,19.96,35.79,250.53,139.72,110.81,34,M,Telemedicine,28,4,98,91,No,Online
+RX0408,2023-10-10,Ibuprofen,Pain Relief,Apollo Wellness,Digital,6,17.39,29.9,179.4,104.34,75.06,27,M,Specialist,21,12,19,13,Yes,Walk-in
+RX0409,2023-07-14,Losartan,Cardiac,LifeLine Medicals,Retail,7,17.45,21.47,150.29,122.15,28.14,23,F,Specialist,7,12,69,62,Yes,Walk-in
+RX0410,2023-12-15,Amoxicillin,Antibiotic,WellCare Pharmacy,Retail,19,18.46,27.28,518.32,350.74,167.58,31,F,Telemedicine,15,10,92,73,Yes,WhatsApp
+RX0411,2023-06-05,Atorvastatin,Cardiac,Sharma Medical Store,Digital,2,5.7,7.1,14.2,11.4,2.8,31,F,GP,11,7,90,88,Yes,WhatsApp
+RX0412,2023-03-15,Omeprazole,Gastro,LifeLine Medicals,Retail,15,26.36,36.14,542.1,395.4,146.7,80,M,Specialist,23,13,50,35,Yes,WhatsApp
+RX0413,2023-04-06,Amlodipine,Cardiac,Sharma Medical Store,Retail,13,13.71,23.32,303.16,178.23,124.93,63,F,Specialist,24,4,24,11,Yes,WhatsApp
+RX0414,2023-04-20,Losartan,Cardiac,Apollo Wellness,Digital,19,15.11,26.71,507.49,287.09,220.4,73,F,Specialist,10,14,87,68,Yes,WhatsApp
+RX0415,2023-06-18,Ibuprofen,Pain Relief,Apollo Wellness,Retail,4,11.67,20.05,80.2,46.68,33.52,70,M,Telemedicine,5,10,16,12,No,Phone
+RX0416,2023-05-20,Atorvastatin,Cardiac,Apollo Wellness,Digital,2,21.24,32.78,65.56,42.48,23.08,23,M,Specialist,7,10,54,52,No,Phone
+RX0417,2023-04-28,Losartan,Cardiac,Apollo Wellness,Retail,6,21.46,27.4,164.4,128.76,35.64,39,F,Specialist,17,10,37,31,Yes,Walk-in
+RX0418,2023-02-23,Atorvastatin,Cardiac,Sharma Medical Store,Digital,12,8.2,12.11,145.32,98.4,46.92,28,F,GP,22,2,17,5,No,Online
+RX0419,2023-11-10,Cetirizine,Allergy,Sharma Medical Store,Digital,8,9.15,13.84,110.72,73.2,37.52,42,M,Specialist,27,3,92,84,Yes,WhatsApp
+RX0420,2023-03-01,Atorvastatin,Cardiac,WellCare Pharmacy,Digital,15,22.19,37.88,568.2,332.85,235.35,60,F,GP,23,6,26,11,Yes,Phone
+RX0421,2023-04-07,Ibuprofen,Pain Relief,Sharma Medical Store,Digital,19,18.81,23.36,443.84,357.39,86.45,63,M,Specialist,33,11,65,46,No,Walk-in
+RX0422,2023-05-11,Amlodipine,Cardiac,LifeLine Medicals,Retail,18,13.92,22.63,407.34,250.56,156.78,43,F,Telemedicine,30,2,104,86,No,Online
+RX0423,2023-11-05,Paracetamol,Pain Relief,WellCare Pharmacy,Retail,13,28.32,48.25,627.25,368.16,259.09,62,F,Telemedicine,34,5,36,23,Yes,Walk-in
+RX0424,2023-07-06,Atorvastatin,Cardiac,Apollo Wellness,Digital,2,19.32,34.74,69.48,38.64,30.84,50,M,Specialist,28,9,48,46,No,Phone
+RX0425,2023-04-15,Amoxicillin,Antibiotic,Sharma Medical Store,Retail,2,17.02,27.42,54.84,34.04,20.8,27,M,GP,10,10,61,59,Yes,Online
+RX0426,2023-10-04,Paracetamol,Pain Relief,Sharma Medical Store,Digital,13,14.75,21.87,284.31,191.75,92.56,67,M,Telemedicine,17,7,79,66,Yes,Walk-in
+RX0427,2023-01-30,Azithromycin,Antibiotic,Apollo Wellness,Retail,5,4.85,6.66,33.3,24.25,9.05,72,F,GP,17,11,36,31,No,WhatsApp
+RX0428,2023-07-06,Atorvastatin,Cardiac,WellCare Pharmacy,Digital,13,29.59,50.92,661.96,384.67,277.29,33,M,GP,30,12,44,31,No,WhatsApp
+RX0429,2023-02-22,Azithromycin,Antibiotic,LifeLine Medicals,Digital,2,9.54,12.18,24.36,19.08,5.28,84,F,GP,24,14,36,34,Yes,Walk-in
+RX0430,2023-01-14,Amoxicillin,Antibiotic,Apollo Wellness,Retail,3,4.78,6.99,20.97,14.34,6.63,30,M,GP,22,3,72,69,Yes,WhatsApp
+RX0431,2023-04-15,Cetirizine,Allergy,LifeLine Medicals,Retail,3,2.61,4.1,12.3,7.83,4.47,32,F,GP,3,4,68,65,Yes,Walk-in
+RX0432,2023-08-15,Amoxicillin,Antibiotic,Sharma Medical Store,Digital,1,4.28,6.49,6.49,4.28,2.21,53,M,Telemedicine,6,9,91,90,Yes,WhatsApp
+RX0433,2023-10-23,Metformin,Anti-Diabetic,LifeLine Medicals,Retail,15,15.98,19.8,297.0,239.7,57.3,36,F,GP,1,12,58,43,Yes,WhatsApp
+RX0434,2023-07-10,Atorvastatin,Cardiac,Sharma Medical Store,Digital,14,24.35,37.54,525.56,340.9,184.66,20,F,GP,1,13,76,62,Yes,Phone
+RX0435,2023-05-21,Paracetamol,Pain Relief,WellCare Pharmacy,Retail,1,26.24,45.64,45.64,26.24,19.4,33,F,Specialist,6,11,93,92,No,Phone
+RX0436,2023-08-21,Azithromycin,Antibiotic,Sharma Medical Store,Retail,7,13.82,18.05,126.35,96.74,29.61,19,F,Telemedicine,25,2,39,32,No,Walk-in
+RX0437,2023-01-12,Paracetamol,Pain Relief,WellCare Pharmacy,Retail,8,17.68,22.91,183.28,141.44,41.84,73,M,GP,18,5,81,73,Yes,Phone
+RX0438,2023-04-29,Ibuprofen,Pain Relief,Sharma Medical Store,Retail,3,23.58,35.56,106.68,70.74,35.94,37,F,Telemedicine,10,7,20,17,Yes,Online
+RX0439,2023-11-16,Amoxicillin,Antibiotic,LifeLine Medicals,Digital,4,24.47,37.21,148.84,97.88,50.96,50,F,Specialist,6,8,60,56,Yes,Walk-in
+RX0440,2023-12-31,Metformin,Anti-Diabetic,WellCare Pharmacy,Retail,18,5.43,9.72,174.96,97.74,77.22,45,M,Telemedicine,21,10,55,37,No,Phone
+RX0441,2023-07-27,Ibuprofen,Pain Relief,WellCare Pharmacy,Retail,3,2.78,5.0,15.0,8.34,6.66,33,M,Telemedicine,18,13,67,64,Yes,Walk-in
+RX0442,2023-10-13,Amoxicillin,Antibiotic,WellCare Pharmacy,Retail,10,4.57,7.56,75.6,45.7,29.9,33,M,Specialist,12,7,44,34,Yes,Walk-in
+RX0443,2023-11-11,Azithromycin,Antibiotic,WellCare Pharmacy,Retail,18,4.35,7.41,133.38,78.3,55.08,62,F,GP,19,9,108,90,Yes,WhatsApp
+RX0444,2023-11-25,Losartan,Cardiac,LifeLine Medicals,Retail,18,2.08,2.53,45.54,37.44,8.1,29,M,Telemedicine,8,8,73,55,No,Walk-in
+RX0445,2023-07-21,Omeprazole,Gastro,WellCare Pharmacy,Retail,9,11.05,18.42,165.78,99.45,66.33,51,F,GP,16,4,65,56,No,WhatsApp
+RX0446,2023-03-04,Cetirizine,Allergy,WellCare Pharmacy,Retail,6,9.34,14.17,85.02,56.04,28.98,66,M,GP,4,9,28,22,Yes,WhatsApp
+RX0447,2023-11-24,Paracetamol,Pain Relief,WellCare Pharmacy,Digital,13,2.08,3.47,45.11,27.04,18.07,27,F,Telemedicine,10,12,97,84,No,Phone
+RX0448,2023-04-17,Ibuprofen,Pain Relief,Apollo Wellness,Retail,11,29.24,39.05,429.55,321.64,107.91,70,M,Telemedicine,10,14,65,54,No,WhatsApp
+RX0449,2023-09-05,Azithromycin,Antibiotic,WellCare Pharmacy,Digital,3,4.06,6.63,19.89,12.18,7.71,82,M,Specialist,6,8,49,46,No,Phone
+RX0450,2023-12-19,Atorvastatin,Cardiac,WellCare Pharmacy,Retail,19,18.73,29.14,553.66,355.87,197.79,82,F,Specialist,27,10,53,34,No,Phone
+RX0451,2023-03-28,Paracetamol,Pain Relief,Apollo Wellness,Retail,4,19.97,34.95,139.8,79.88,59.92,41,M,Specialist,15,10,83,79,Yes,Phone
+RX0452,2023-10-22,Paracetamol,Pain Relief,Sharma Medical Store,Digital,10,18.0,25.42,254.2,180.0,74.2,35,M,Telemedicine,18,8,62,52,No,Phone
+RX0453,2023-11-16,Omeprazole,Gastro,LifeLine Medicals,Digital,4,6.06,8.19,32.76,24.24,8.52,61,M,Telemedicine,17,14,30,26,No,Phone
+RX0454,2023-10-13,Atorvastatin,Cardiac,LifeLine Medicals,Retail,2,8.96,11.13,22.26,17.92,4.34,59,M,GP,4,13,58,56,No,Phone
+RX0455,2023-01-18,Cetirizine,Allergy,LifeLine Medicals,Retail,3,3.73,5.88,17.64,11.19,6.45,63,M,Telemedicine,5,13,10,7,No,WhatsApp
+RX0456,2023-09-28,Amoxicillin,Antibiotic,Apollo Wellness,Retail,15,8.88,15.06,225.9,133.2,92.7,50,M,Telemedicine,5,14,50,35,No,Online
+RX0457,2023-12-15,Metformin,Anti-Diabetic,LifeLine Medicals,Retail,9,21.84,33.45,301.05,196.56,104.49,69,M,Telemedicine,6,11,91,82,Yes,WhatsApp
+RX0458,2023-10-09,Cetirizine,Allergy,Apollo Wellness,Retail,19,8.48,11.33,215.27,161.12,54.15,82,F,GP,25,14,72,53,No,WhatsApp
+RX0459,2023-08-31,Cetirizine,Allergy,Sharma Medical Store,Digital,5,26.21,46.51,232.55,131.05,101.5,59,F,Specialist,9,7,36,31,Yes,Online
+RX0460,2023-05-07,Azithromycin,Antibiotic,LifeLine Medicals,Digital,7,14.49,24.97,174.79,101.43,73.36,69,M,Specialist,29,6,93,86,Yes,Phone
+RX0461,2023-05-19,Ibuprofen,Pain Relief,WellCare Pharmacy,Digital,4,25.85,37.75,151.0,103.4,47.6,83,F,Specialist,19,12,102,98,No,Phone
+RX0462,2023-06-25,Metformin,Anti-Diabetic,WellCare Pharmacy,Digital,16,20.83,33.16,530.56,333.28,197.28,30,F,Specialist,11,13,56,40,No,Phone
+RX0463,2023-07-22,Azithromycin,Antibiotic,Sharma Medical Store,Retail,19,19.32,31.17,592.23,367.08,225.15,71,M,Telemedicine,20,10,74,55,Yes,Phone
+RX0464,2023-01-01,Paracetamol,Pain Relief,Apollo Wellness,Digital,12,12.35,15.65,187.8,148.2,39.6,60,M,Specialist,14,11,101,89,Yes,Walk-in
+RX0465,2023-10-06,Ibuprofen,Pain Relief,LifeLine Medicals,Digital,12,4.78,5.75,69.0,57.36,11.64,56,F,Specialist,26,3,67,55,No,Phone
+RX0466,2023-04-10,Azithromycin,Antibiotic,LifeLine Medicals,Digital,17,28.16,37.46,636.82,478.72,158.1,78,M,Specialist,12,8,61,44,Yes,Online
+RX0467,2023-03-04,Amoxicillin,Antibiotic,Apollo Wellness,Retail,5,18.11,29.7,148.5,90.55,57.95,62,M,Telemedicine,20,6,12,7,No,Walk-in
+RX0468,2023-12-23,Omeprazole,Gastro,LifeLine Medicals,Retail,17,27.88,45.76,777.92,473.96,303.96,56,M,GP,34,4,75,58,Yes,Online
+RX0469,2023-03-26,Ibuprofen,Pain Relief,Apollo Wellness,Retail,14,20.67,28.11,393.54,289.38,104.16,36,F,GP,21,12,63,49,No,WhatsApp
+RX0470,2023-11-10,Metformin,Anti-Diabetic,Apollo Wellness,Retail,17,17.66,24.06,409.02,300.22,108.8,20,M,GP,6,11,86,69,No,Phone
+RX0471,2023-02-22,Omeprazole,Gastro,Sharma Medical Store,Retail,13,10.46,13.96,181.48,135.98,45.5,26,F,GP,31,7,78,65,Yes,Walk-in
+RX0472,2023-01-07,Paracetamol,Pain Relief,Sharma Medical Store,Digital,9,15.46,27.7,249.3,139.14,110.16,51,F,Telemedicine,4,7,31,22,No,Walk-in
+RX0473,2023-01-27,Metformin,Anti-Diabetic,LifeLine Medicals,Digital,5,18.91,29.0,145.0,94.55,50.45,47,M,Telemedicine,10,5,71,66,No,Online
+RX0474,2023-12-09,Cetirizine,Allergy,Sharma Medical Store,Digital,9,20.45,34.0,306.0,184.05,121.95,62,F,Telemedicine,16,6,66,57,No,Walk-in
+RX0475,2023-11-05,Atorvastatin,Cardiac,LifeLine Medicals,Retail,18,24.17,41.55,747.9,435.06,312.84,58,F,Telemedicine,16,4,78,60,Yes,Online
+RX0476,2023-09-24,Cetirizine,Allergy,WellCare Pharmacy,Retail,13,12.86,22.94,298.22,167.18,131.04,50,M,GP,32,12,71,58,No,Online
+RX0477,2023-02-19,Cetirizine,Allergy,Sharma Medical Store,Retail,5,19.27,26.93,134.65,96.35,38.3,72,M,Telemedicine,17,7,17,12,Yes,Phone
+RX0478,2023-11-15,Omeprazole,Gastro,Apollo Wellness,Digital,16,15.18,25.41,406.56,242.88,163.68,25,F,Telemedicine,29,10,110,94,No,Online
+RX0479,2023-09-15,Omeprazole,Gastro,WellCare Pharmacy,Retail,19,24.89,35.53,675.07,472.91,202.16,73,F,Specialist,16,6,103,84,No,Phone
+RX0480,2023-10-30,Atorvastatin,Cardiac,Sharma Medical Store,Retail,18,5.4,7.69,138.42,97.2,41.22,33,F,Telemedicine,32,4,114,96,No,Online
+RX0481,2023-07-20,Atorvastatin,Cardiac,WellCare Pharmacy,Retail,10,22.65,38.99,389.9,226.5,163.4,61,F,GP,15,7,63,53,No,Walk-in
+RX0482,2023-10-13,Atorvastatin,Cardiac,Apollo Wellness,Digital,12,10.46,18.63,223.56,125.52,98.04,76,M,Specialist,16,11,94,82,No,Phone
+RX0483,2023-12-09,Paracetamol,Pain Relief,WellCare Pharmacy,Retail,12,8.67,13.4,160.8,104.04,56.76,30,F,Specialist,23,6,101,89,Yes,Walk-in
+RX0484,2023-11-10,Ibuprofen,Pain Relief,WellCare Pharmacy,Retail,2,26.69,42.2,84.4,53.38,31.02,57,F,Specialist,24,13,8,6,No,Online
+RX0485,2023-01-16,Amoxicillin,Antibiotic,WellCare Pharmacy,Retail,13,11.91,17.87,232.31,154.83,77.48,55,M,GP,3,11,61,48,Yes,Online
+RX0486,2023-02-09,Omeprazole,Gastro,LifeLine Medicals,Retail,9,7.8,11.57,104.13,70.2,33.93,71,F,Specialist,33,2,40,31,Yes,Phone
+RX0487,2023-01-01,Ibuprofen,Pain Relief,LifeLine Medicals,Retail,1,29.95,44.54,44.54,29.95,14.59,60,M,Telemedicine,10,11,8,7,Yes,Phone
+RX0488,2023-04-27,Omeprazole,Gastro,Apollo Wellness,Digital,14,2.56,4.28,59.92,35.84,24.08,66,M,GP,14,12,34,20,Yes,WhatsApp
+RX0489,2023-06-10,Ibuprofen,Pain Relief,LifeLine Medicals,Retail,4,12.99,15.94,63.76,51.96,11.8,54,M,Specialist,2,6,97,93,Yes,Online
+RX0490,2023-09-28,Cetirizine,Allergy,Apollo Wellness,Retail,2,22.09,29.03,58.06,44.18,13.88,52,F,Specialist,5,6,69,67,Yes,Phone
+RX0491,2023-06-12,Paracetamol,Pain Relief,LifeLine Medicals,Retail,14,17.64,29.9,418.6,246.96,171.64,25,M,Specialist,32,10,93,79,No,Phone
+RX0492,2023-01-15,Losartan,Cardiac,Apollo Wellness,Retail,9,29.77,35.77,321.93,267.93,54.0,37,M,Telemedicine,5,10,93,84,Yes,Online
+RX0493,2023-04-09,Amlodipine,Cardiac,LifeLine Medicals,Retail,9,8.35,14.82,133.38,75.15,58.23,74,F,GP,13,2,49,40,Yes,Online
+RX0494,2023-04-05,Metformin,Anti-Diabetic,LifeLine Medicals,Digital,6,9.55,12.27,73.62,57.3,16.32,40,F,GP,12,11,55,49,No,Online
+RX0495,2023-06-20,Losartan,Cardiac,Sharma Medical Store,Digital,9,19.0,33.32,299.88,171.0,128.88,23,F,Specialist,31,10,18,9,No,Online
+RX0496,2023-03-31,Paracetamol,Pain Relief,WellCare Pharmacy,Retail,14,20.03,34.75,486.5,280.42,206.08,71,F,Telemedicine,13,7,84,70,No,Walk-in
+RX0497,2023-09-08,Cetirizine,Allergy,Apollo Wellness,Digital,17,10.75,14.77,251.09,182.75,68.34,35,M,GP,32,9,111,94,Yes,WhatsApp
+RX0498,2023-02-13,Ibuprofen,Pain Relief,Apollo Wellness,Retail,18,26.05,36.29,653.22,468.9,184.32,72,M,Specialist,20,11,39,21,No,Phone
+RX0499,2023-01-18,Losartan,Cardiac,WellCare Pharmacy,Digital,19,7.81,12.59,239.21,148.39,90.82,56,F,Specialist,12,8,32,13,Yes,WhatsApp
+RX0500,2023-07-09,Cetirizine,Allergy,WellCare Pharmacy,Retail,6,9.45,14.61,87.66,56.7,30.96,30,M,Specialist,6,2,40,34,Yes,Walk-in
